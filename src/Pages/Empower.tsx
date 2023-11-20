@@ -90,4 +90,5 @@ const Container = styled.div`
     display: flex;
     justify-content: center;
     padding-top: 60px;
+    padding-bottom: 50px;
 `

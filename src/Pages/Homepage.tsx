@@ -3,6 +3,7 @@ import Hero from './Hero'
 import styled from 'styled-components'
 import Digital from './Digital'
 import Empower from './Empower'
+import Commitment from './Commitment'
 
 const Homepage = () => {
   return (
@@ -10,6 +11,7 @@ const Homepage = () => {
       <Hero />
       <Digital />
       <Empower />
+      <Commitment />
     </Holder>
   )
 }
