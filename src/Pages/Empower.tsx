@@ -55,6 +55,9 @@ const Wrapper = styled.div`
         width: 700px;
         margin: 0;
         text-align: center;
+        @media screen and (max-width: 425px) {
+            width: 100%;
+        }
     }
     h2{
          color: #282828;
@@ -68,6 +71,9 @@ const Wrapper = styled.div`
     }
     img{
         height: 370px;
+        @media screen and (max-width: 425px) {
+            height: 240px;
+        }
     }
 `
 const Container = styled.div`
