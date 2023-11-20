@@ -61,6 +61,9 @@ const Icon = styled.div`
     color: #f55203;
     font-size: 40px;
     margin-top: 10px;
+    @media screen and (max-width: 425px) {
+        font-size: 30px;
+    }
 `
 const Circle = styled.div`
     width: 100px;
@@ -71,6 +74,11 @@ const Circle = styled.div`
     justify-content: center;
     align-items: center;
     cursor: pointer;
+    @media screen and (max-width: 425px) {
+        width: 75px;
+        height: 75px;
+        border-radius: 100px;
+    }
 `
 const Playhold = styled.div`
     position: absolute;
@@ -93,6 +101,14 @@ const Right = styled.div`
     @media screen and (max-width: 768px) {
         width: 100%;
         margin-top: 30px;
+    }
+    @media screen and (max-width: 425px) {
+        width: 100%;
+        height: 270px;
+    }
+    @media screen and (max-width: 320px) {
+        width: 100%;
+        height: 240px;
     }
     img{
         width: 100%;
@@ -156,6 +172,10 @@ const Line = styled.div`
 const Wrapper = styled.div`
     h2{
         color: #282828;
+        @media screen and (max-width: 425px) {
+            font-size: 21px;
+            text-align: center;
+        }
     }
     width: 88%;
     display: flex;

@@ -18,4 +18,7 @@ const Holder = styled.div`
   @media screen and (max-width: 768px) {
     padding-top: 40px;
   }
+  @media screen and (max-width: 768px) {
+    padding-top: 10px;
+  }
 `
