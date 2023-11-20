@@ -168,10 +168,11 @@ const Sidebar = styled.div`
 const Sidebarhold = styled.div`
   width: 100%;
   height: calc(100vh - 70px);
-  position: absolute;
+  /* position: absolute; */
   background-color: rgba(0, 0, 0, 0.5);
   top: 70px;
   overflow: hidden;
+  position: fixed;
 `
 const Menu = styled.div`
   font-size: 23px;
@@ -232,10 +233,12 @@ const Container = styled.div`
   display: flex;
   align-items: center;
   justify-content: center;
-  position: relative;
+  /* position: relative; */
   z-index: 1;
   background-color: #fff;
+  position: relative;
   @media screen and (max-width: 768px) {
     box-shadow: rgba(99, 99, 99, 0.2) 0px 2px 8px 0px;
+    position: fixed;
   }
 `

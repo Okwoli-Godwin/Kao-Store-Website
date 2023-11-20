@@ -53,7 +53,7 @@ const Card = styled.div`
 const Cardholder = styled.div`
     display: flex;
     flex-direction: column;
-    width: 285px;
+    width: 255px;
     p{
         line-height: 25px;
     }

@@ -16,7 +16,7 @@ const Hero = () => {
                         <span style={{color: "#f55203"}}>
                             <Typewriter
                                 words={['Upgrade', 'Build', 'Shape', 'Grow']}
-                                loop={5}
+                                loop
                                 cursor
                                 typeSpeed={500}
                                 delaySpeed={150}
@@ -53,6 +53,9 @@ const Button = styled.button`
     cursor: pointer;
     font-weight: 500;
     margin-top: 35px;
+    @media screen and (max-width: 768px) {
+        margin-top: 20px;
+    }
 `
 const Icon = styled.div`
     color: #f55203;
@@ -86,6 +89,11 @@ const Right = styled.div`
     border-top-right-radius: 50px;
     border-bottom-left-radius: 50px;
     overflow: hidden;
+        background-color: red;
+    @media screen and (max-width: 768px) {
+        width: 100%;
+        margin-top: 30px;
+    }
     img{
         width: 100%;
         height: 100%;
@@ -99,11 +107,18 @@ const Text = styled.div`
     font-family: 'Ubuntu', sans-serif;
     margin-top: -40px;
     font-weight: 500;
+    @media screen and (max-width: 768px) {
+        margin-top: -10px;
+        font-size: 22px;
+    }
 `
 const Left = styled.div`
     width: 45%;
     display: flex;
     flex-direction: column;
+    @media screen and (max-width: 768px) {
+        width: 100%;
+    }
     p{
         font-size: 75px;
         width: 320px;
@@ -111,12 +126,26 @@ const Left = styled.div`
         margin-top: 12px;
         flex-direction: column;
         display: flex;
+        color: #282828;
+        @media screen and (max-width: 768px) {
+        width: 550px;
+        font-size: 40px;
+        font-weight: 100;
+    }
+        @media screen and (max-width: 425px) {
+        width: 100%;
+        font-size: 40px;
+        font-weight: 100;
+    }
     }
 `
 const Holder = styled.div`
     width: 100%;
     display: flex;
     margin-top: 20px;
+    @media screen and (max-width: 768px){
+        flex-wrap: wrap;
+    }
 `
 const Line = styled.div`
     width: 40px;
@@ -133,9 +162,19 @@ const Wrapper = styled.div`
     flex-direction: column;
     align-items: center;
     padding-top: 80px;
+    @media screen and (max-width: 768px) {
+        width: 95%;
+    }
+    @media screen and (max-width: 425px) {
+        width: 95%;
+    }
 `
 const Container = styled.div`
     width: 100%;
     display: flex;
     justify-content: center;
+    @media screen and (max-width: 768px) {
+        padding-top: 30px;
+        width: 100%;
+    }
 `
