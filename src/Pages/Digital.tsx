@@ -39,6 +39,9 @@ const Right = styled.div`
     width: 40%;
     display: flex;
     flex-direction: column;
+    @media screen and (max-width: 768px) {
+        width: 100%;
+    }
     p{
         margin: 0;
         font-family: Ubuntu;
@@ -59,11 +62,18 @@ const Right = styled.div`
         font-weight: 400;
         letter-spacing: normal;
         line-height: 1.17;
+        color: #282828;
+        @media screen and (max-width: 425px) {
+            font-size: 35px;
+        }
     }
 `
 const Left = styled.div`
     display: flex;
     width: 55%;
+    @media screen and (max-width: 768px) {
+        width: 100%;
+    }
     img{
         height: 530px;
         object-fit: cover;
@@ -76,6 +86,9 @@ const Wrapper = styled.div`
     display: flex;
     flex-wrap: wrap;
     justify-content: space-between;
+    @media screen and (max-width: 768px) {
+        width: 95%;
+    }
 `
 const Container = styled.div`
     display: flex;
@@ -84,4 +97,7 @@ const Container = styled.div`
     margin-top: 60px;
     justify-content: center;
     padding-top: 25px;
+    @media screen and (max-width: 425px) {
+        margin-top: 30px;
+    }
 `
