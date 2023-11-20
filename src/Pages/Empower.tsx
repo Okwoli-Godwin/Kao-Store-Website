@@ -43,6 +43,9 @@ const Wrapper = styled.div`
     display: flex;
     flex-direction: column;
     align-items: center;
+    @media screen and (max-width: 768px) {
+        width: 95%;
+    }
     p{
         font-family: Ubuntu;
         font-stretch: normal;
@@ -68,11 +71,17 @@ const Wrapper = styled.div`
         font-weight: 500;
         letter-spacing: normal;
         line-height: normal;
+        @media screen and (max-width: 320px) {
+            font-size: 23px;
+        }
     }
     img{
         height: 370px;
         @media screen and (max-width: 425px) {
             height: 240px;
+        }
+        @media screen and (max-width: 320px) {
+            height: 180px;
         }
     }
 `
