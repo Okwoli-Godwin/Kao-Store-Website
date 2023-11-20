@@ -2,12 +2,14 @@ import React from 'react'
 import Hero from './Hero'
 import styled from 'styled-components'
 import Digital from './Digital'
+import Empower from './Empower'
 
 const Homepage = () => {
   return (
     <Holder>
       <Hero />
       <Digital />
+      <Empower />
     </Holder>
   )
 }
