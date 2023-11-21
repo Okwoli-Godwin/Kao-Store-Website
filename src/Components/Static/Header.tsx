@@ -1,6 +1,6 @@
 import React, {useState} from 'react'
 import styled from 'styled-components'
-import img from "../../Assets/Jum.svg"
+import img from "../../Assets/KAO_Logo_PNG.png"
 import { MdKeyboardArrowDown } from "react-icons/md";
 import Dropdown1 from './Dropdown1';
 import Dropdown2 from './Dropdown2';
@@ -220,7 +220,7 @@ const Wrapper = styled.div`
   display: flex;
   align-items: center;
   img{
-    height: 24px;
+    height: 74px;
   }
   @media screen and (max-width: 768px) {
     justify-content: space-between;
