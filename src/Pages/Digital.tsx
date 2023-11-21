@@ -24,7 +24,7 @@ export default Digital
 const Button = styled.button`
     width: 200px;
     height: 45px;
-    background-color: #f55203;
+    background-color: #0030AD;
     color: #fff;
     border: none;
     border-radius: 5px;

@@ -11,7 +11,7 @@ const Homepage = () => {
       <Hero />
       <Digital />
       <Empower />
-      <Commitment />
+      {/* <Commitment /> */}
     </Holder>
   )
 }

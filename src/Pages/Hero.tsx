@@ -13,7 +13,7 @@ const Hero = () => {
             <Holder>
                 <Left>
                     <p>Empower Connect
-                        <span style={{color: "#f55203"}}>
+                        <span style={{color: "#0030AD"}}>
                             <Typewriter
                                 words={['Upgrade', 'Build', 'Shape', 'Grow']}
                                 loop
@@ -45,7 +45,7 @@ export default Hero
 const Button = styled.button`
     width: 145px;
     height: 45px;
-    background-color: #f55203;
+    background-color: #0030AD;
     color: #fff;
     border: none;
     border-radius: 5px;
