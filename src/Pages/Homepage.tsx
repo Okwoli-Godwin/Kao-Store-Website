@@ -4,6 +4,7 @@ import styled from 'styled-components'
 import Digital from './Digital'
 import Empower from './Empower'
 import Commitment from './Commitment'
+import Latestnews from './Latestnews'
 
 const Homepage = () => {
   return (
@@ -12,6 +13,7 @@ const Homepage = () => {
       <Digital />
       <Empower />
       {/* <Commitment /> */}
+      <Latestnews />
     </Holder>
   )
 }
