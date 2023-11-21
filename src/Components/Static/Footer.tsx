@@ -2,6 +2,7 @@ import React from 'react'
 import styled from 'styled-components'
 import { TfiEmail } from "react-icons/tfi";
 import { IoIosPhonePortrait } from "react-icons/io";
+import { FaGooglePlay, FaAppStore } from "react-icons/fa";
 
 
 const Footer = () => {
@@ -37,8 +38,47 @@ const Footer = () => {
       <Foot>
         <Wrap>
           <Holder1>
-            <h3>About Us</h3>
+            <h3>ABOUT US</h3>
             <p>Contact Us</p>
+            <p>About Us</p>
+            <p>Terms and Condition</p>
+          </Holder1>
+          <Holder1>
+            <h3>PAYMENT</h3>
+            <p>Kao Wallet</p>
+            <p>Verve</p>
+            <p>Visa</p>
+            <p>Master Card</p>
+            <p>Digital Currency</p>
+          </Holder1>
+          <Holder1>
+            <h3>MORE INFO</h3>
+            <p>FAQs</p>
+            <p>Delivery</p>
+            <p>Return Policy</p>
+            <p>Track My Order</p>
+            <p>Privacy Policy</p>
+          </Holder1>
+          <Holder1>
+            <h3>MAKE MONEY WITH US</h3>
+            <p>Become an Agent</p>
+          </Holder1>
+          <Holder1>
+            <h3>Download on mobile</h3>
+            <Storehold>
+              <Ico><FaGooglePlay /></Ico>
+              <div style={{display: "flex", flexDirection: "column", marginLeft: "12px"}}>
+                <On>Download On</On>
+                <p>Google Play Store</p>
+              </div>
+            </Storehold>
+            <Storehold>
+              <Ico><FaAppStore /></Ico>
+              <div style={{display: "flex", flexDirection: "column", marginLeft: "12px"}}>
+                <On>Download On</On>
+                <p>Apple App Store</p>
+              </div>
+            </Storehold>
           </Holder1>
         </Wrap>
       </Foot>
@@ -47,13 +87,27 @@ const Footer = () => {
 }
 
 export default Footer
+const On = styled.div`
+  font-size: 12px;
+  color: #fff;
+`
+const Ico = styled.div`
+  color: #fff;
+  font-size: 26px;
+`
+const Storehold = styled.div`
+  display: flex;
+  align-items: center;
+`
 const Holder1 = styled.div`
   p{
     color: #fff;
+    font-size: 14px;
     margin-top: 5px;
   }
   h3{
     color: #fff;
+    font-size: 16px;
   }
   display: flex;
   flex-direction: column;
@@ -61,6 +115,7 @@ const Holder1 = styled.div`
 const Wrap = styled.div`
   width: 88%;
   display: flex;
+  justify-content: space-between;
 `
 const Foot = styled.div`
   width: 100%;
