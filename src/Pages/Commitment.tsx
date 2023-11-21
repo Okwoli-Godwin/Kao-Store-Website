@@ -45,18 +45,10 @@ const Commitment = () => {
 export default Commitment
 const Holders = styled.div`
     width: 100%;
-    height: 200px;
     background-color: #FFF0E8;
     bottom: 0;
     /* margin-bottom: -100px; */
     /* margin-top: 200px; */
-`
-const Holder = styled.div`
-    width: 100%;
-    height: 200px;
-    position: absolute;
-    bottom: 0;
-    margin-top: 170px;
 `
 const Box4 = styled.div<{bg: string}>`
     width: 250px;
