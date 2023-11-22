@@ -2,7 +2,9 @@ import React from 'react'
 import styled from 'styled-components'
 import { TfiEmail } from "react-icons/tfi";
 import { IoIosPhonePortrait } from "react-icons/io";
-import { FaGooglePlay, FaAppStore } from "react-icons/fa";
+import { FaGooglePlay, FaAppStore, FaTwitter, FaInstagramSquare } from "react-icons/fa";
+import { BsFacebook } from "react-icons/bs";
+import { FaSquareThreads } from "react-icons/fa6";
 
 
 const Footer = () => {
@@ -79,6 +81,15 @@ const Footer = () => {
                 <p>Apple App Store</p>
               </div>
             </Storehold>
+            <div style={{display: "flex", flexDirection: "column"}}>
+              <p>Keep up to date with us</p>
+              <div style={{ display: "flex", alignItems: "center" }}>
+                <F><BsFacebook /></F>
+                <F><FaTwitter /></F>
+                <F><FaInstagramSquare /></F>
+                <F><FaSquareThreads /></F>
+              </div>
+            </div>
           </Holder1>
         </Wrap>
       </Foot>
@@ -87,6 +98,11 @@ const Footer = () => {
 }
 
 export default Footer
+const F = styled.div`
+  color: #fff;
+  margin-right: 23px;
+  font-size: 20px;
+`
 const On = styled.div`
   font-size: 12px;
   color: #fff;
