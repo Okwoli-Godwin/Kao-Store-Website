@@ -19,6 +19,15 @@ const Whatwedo = () => {
                         <Icon><FaArrowRight /></Icon>
                     </div>
                 </Cardhold>
+                <Cardhold>
+                    <img src="https://group-live.jumia.is/images/about/4by3/about-02.png" alt="" />
+                    <h3>Empowering Businesses</h3>
+                    <p>Jumia takes African economies online, helping small and large businesses grow and reach new consumers, empowering a new generation to build their lives and make their communities better.</p>
+                    <div style={{display: "flex", alignItems: "center"}}>
+                        <P>Discover our services for businesses</P>
+                        <Icon><FaArrowRight /></Icon>
+                    </div>
+                </Cardhold>
             </Holder>
         </Wrapper>
     </Container>
@@ -83,6 +92,7 @@ const Holder = styled.div`
     display: flex;
     flex-wrap: wrap;
     margin-top: 17px;
+    justify-content: space-between;
 `
 const Line = styled.div`
     width: 40px;
