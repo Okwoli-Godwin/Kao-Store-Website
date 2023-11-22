@@ -1,5 +1,6 @@
 import React from 'react'
 import styled from 'styled-components'
+import { FaArrowRight } from "react-icons/fa";
 
 const Whatwedo = () => {
   return (
@@ -7,12 +8,82 @@ const Whatwedo = () => {
         <Wrapper>
             <Line></Line>
             <h2>What we do</h2>
+            
+            <Holder>
+                <Cardhold>
+                    <img src="https://group-live.jumia.is/images/about/4by3/about-01.png" alt="" />
+                    <h3>Serving Consumers</h3>
+                    <p>Jumia delivers innovative, convenient and affordable online services to consumers in Africa that help them fulfil their everyday needs.</p>
+                    <div style={{display: "flex", alignItems: "center"}}>
+                        <P>Discover our services for consumers</P>
+                        <Icon><FaArrowRight /></Icon>
+                    </div>
+                </Cardhold>
+            </Holder>
         </Wrapper>
     </Container>
   )
 }
 
 export default Whatwedo
+const Icon = styled.div`
+    color: #f55203;
+    font-size: 12px;
+    margin-top: 30px;
+    margin-left: 20px;
+`
+const P = styled.div`
+    color: #f55203;
+    font-family: "Ubuntu";
+    font-size: .875rem;
+    font-stretch: normal;
+    font-style: normal;
+    font-weight: 400;
+    height: auto;
+    letter-spacing: normal;
+    line-height: 1.29;
+    -webkit-text-decoration: underline;
+    text-decoration: underline;
+    margin-top: 30px;
+`
+const Cardhold = styled.div`
+    width: 48%;
+    display: flex;
+    flex-direction: column;
+    overflow: hidden;
+    p{
+        font-family: Ubuntu;
+        font-stretch: normal;
+        font-style: normal;
+        font-weight: 400;
+        letter-spacing: normal;
+        white-space: pre-line;
+        color: #282828;
+        font-size: 16px;
+        line-height: 1.5;
+        margin: 0;
+    }
+    h3{
+        color: #282828;
+        font-family: Ubuntu;
+        font-size: 22px;
+        font-stretch: normal;
+        font-style: normal;
+        font-weight: 500;
+        letter-spacing: normal;
+        line-height: 1.25;
+    }
+    img{
+        width: 100%;
+        border-radius: 12px;
+    }
+`
+const Holder = styled.div`
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+    margin-top: 17px;
+`
 const Line = styled.div`
     width: 40px;
     height: 4px;
