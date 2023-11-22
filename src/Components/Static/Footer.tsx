@@ -127,11 +127,21 @@ const Holder1 = styled.div`
   }
   display: flex;
   flex-direction: column;
+  @media screen and (max-width: 768px) {
+    width: 200px;
+}
+  @media screen and (max-width: 425px) {
+    width: 100%;
+}
 `
 const Wrap = styled.div`
   width: 88%;
   display: flex;
   justify-content: space-between;
+  flex-wrap: wrap;
+  @media screen and (max-width: 768px) {
+    width: 95%;
+  }
 `
 const Foot = styled.div`
   width: 100%;
@@ -165,6 +175,9 @@ const Emailholder = styled.div`
   display: flex;
   align-items: center;
   height: 40px;
+  @media screen and (max-width: 425px) {
+    width: 100%;
+  }
 `
 const Texthold = styled.div`
   display: flex;
@@ -191,6 +204,9 @@ const Circle = styled.div`
 const Holder = styled.div`
   display: flex;
   align-items: center;
+  @media screen and (max-width: 768px) {
+    margin-bottom: 30px;
+  }
 `
 const FirstCardhold = styled.div`
   width: 100%;
@@ -198,12 +214,21 @@ const FirstCardhold = styled.div`
   display: flex;
   align-items: center;
   justify-content: space-between;
+  flex-wrap: wrap;
+  @media screen and (max-width: 768px) {
+    flex-wrap: wrap;
+    align-items: center;
+  }
 `
 const Wrapper = styled.div`
   width: 88%;
   display: flex;
   align-items: center;
   flex-direction: column;
+  @media screen and (max-width: 768px) {
+    width: 95%;
+    align-items: center;
+  }
 `
 const Container = styled.div`
   display: flex;
