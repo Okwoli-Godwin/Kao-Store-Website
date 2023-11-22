@@ -7,6 +7,7 @@ import Dropdown2 from './Dropdown2';
 import Dropdown3 from './Dropdown3';
 import Dropdown4 from './Dropdown4';
 import { FiMenu } from "react-icons/fi";
+import { NavLink } from 'react-router-dom';
 
 const Header = () => {
   const [isDropdownOpen, setIsDropdownOpen] = useState(false)
@@ -64,10 +65,12 @@ const Header = () => {
         <img src={img} alt="" />
         
         <Navholder>
-          <Nav onMouseEnter={handleNavItemHover}>
+          <NavLink to="/about" style={{textDecoration: "none"}}>
+            <Nav onMouseEnter={handleNavItemHover}>
             <Text>ABOUT US</Text>
             <Icon><MdKeyboardArrowDown /></Icon>
           </Nav>
+          </NavLink>
           <Nav onMouseEnter={handleNavItemHover2}>
             <Text>BUSINESS</Text>
             <Icon><MdKeyboardArrowDown /></Icon>

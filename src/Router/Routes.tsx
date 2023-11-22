@@ -1,7 +1,7 @@
 import { useRoutes} from "react-router-dom"
 import { Homelayout } from "../Components"
 import Homepage from "../Pages/Homepage"
-import Aboutpage from "../Pages/Aboutpage"
+import Aboutpage from "../Pages/About/Aboutpage"
 
 const Routes = () => {
     let element = useRoutes([
