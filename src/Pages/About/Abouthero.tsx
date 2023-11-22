@@ -1,7 +1,5 @@
 import React from 'react'
 import styled from 'styled-components'
-import { IoPlay } from "react-icons/io5";
-import { Typewriter } from 'react-simple-typewriter';
 import img from "../../Assets/aboutjumia1.jpg"
 
 const Abouthero = () => {
@@ -14,6 +12,7 @@ const Abouthero = () => {
             <Holder>
                 <Left>
                     <h1>Our mission</h1>
+                    <p>We believe that technology has the potential to transform everyday life in Africa, for the better. We built Jumia to help consumers access millions of goods and services conveniently and at the best prices while opening up a new way for sellers to reach consumers and grow their businesses.</p>
                 </Left>
                 <Right>
                     <img src={img} alt="" />
@@ -58,6 +57,22 @@ const Left = styled.div`
     flex-direction: column;
     @media screen and (max-width: 768px) {
         width: 100%;
+    }
+    p{
+        font-family: Ubuntu;
+        font-stretch: normal;
+        font-style: normal;
+        font-weight: 400;
+        letter-spacing: normal;
+        white-space: pre-line;
+        color: #282828;
+        font-size: 16px;
+        line-height: 1.5;
+        margin: 0;
+        width: 350px;
+        @media screen and (max-width: 768px) {
+            width: 100%;
+        }
     }
     h1{
         color: #0030AD;
