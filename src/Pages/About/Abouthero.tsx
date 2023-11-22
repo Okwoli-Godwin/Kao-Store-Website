@@ -13,19 +13,7 @@ const Abouthero = () => {
             
             <Holder>
                 <Left>
-                    <p>Empower Connect
-                        <span style={{color: "#0030AD"}}>
-                            <Typewriter
-                                words={['Upgrade', 'Build', 'Shape', 'Grow']}
-                                loop
-                                cursor
-                                typeSpeed={500}
-                                delaySpeed={150}
-                             />
-                        </span>
-                    </p>
-                    <Text>100% Africa, 100% Internet</Text>
-                    <Button>About Jumia</Button>
+                    <h1>Our mission</h1>
                 </Left>
                 <Right>
                     <img src={img} alt="" />
@@ -37,21 +25,6 @@ const Abouthero = () => {
 }
 
 export default Abouthero
-const Button = styled.button`
-    width: 145px;
-    height: 45px;
-    background-color: #0030AD;
-    color: #fff;
-    border: none;
-    border-radius: 5px;
-    font-size: 16px;
-    cursor: pointer;
-    font-weight: 500;
-    margin-top: 35px;
-    @media screen and (max-width: 768px) {
-        margin-top: 20px;
-    }
-`
 const Right = styled.div`
     width: 60%;
     display: flex;
@@ -79,18 +52,6 @@ const Right = styled.div`
         object-fit: cover;
     }
 `
-const Text = styled.div`
-    font-size: 25px;
-    font-weight: 300;
-    line-height: 1.13;
-    font-family: 'Ubuntu', sans-serif;
-    margin-top: -40px;
-    font-weight: 500;
-    @media screen and (max-width: 768px) {
-        margin-top: -10px;
-        font-size: 22px;
-    }
-`
 const Left = styled.div`
     width: 45%;
     display: flex;
@@ -98,24 +59,15 @@ const Left = styled.div`
     @media screen and (max-width: 768px) {
         width: 100%;
     }
-    p{
-        font-size: 75px;
-        width: 320px;
-        font-family: 'Ubuntu', sans-serif;
-        margin-top: 12px;
-        flex-direction: column;
-        display: flex;
-        color: #282828;
-        @media screen and (max-width: 768px) {
-        width: 550px;
-        font-size: 40px;
-        font-weight: 100;
-    }
-        @media screen and (max-width: 425px) {
-        width: 100%;
-        font-size: 40px;
-        font-weight: 100;
-    }
+    h1{
+        color: #0030AD;
+        font-family: Ubuntu;
+        font-size: 42px;
+        font-stretch: normal;
+        font-style: normal;
+        font-weight: 400;
+        letter-spacing: normal;
+        line-height: 1.17;
     }
 `
 const Holder = styled.div`
