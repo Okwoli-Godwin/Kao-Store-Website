@@ -46,6 +46,11 @@ const First = styled.div`
     display: flex;
     flex-direction: column;
     align-items: center;
+    width: 320px;
+    padding-bottom: 40px;
+    @media screen and (max-width: 768px) {
+        width: 100%;
+    }
     h3{
         color: #fff;
         font-family: Ubuntu;
@@ -56,6 +61,9 @@ const First = styled.div`
         letter-spacing: normal;
         line-height: 1.25;
         margin: 0;
+        @media screen and (max-width: 375px) {
+            font-size: 18px;
+        }
     }
     h1{
         color: #f55203;
@@ -66,12 +74,16 @@ const First = styled.div`
         font-style: normal;
         letter-spacing: normal;
         line-height: 1.33;
+        @media screen and (max-width: 375px) {
+            font-size: 30px;
+        }
     }
 `
 const Wrap = styled.div`
     width: 100%;
     display: flex;
     flex-wrap: wrap;
+    justify-content: space-between;
 `
 const Line = styled.div`
     width: 40px;
@@ -113,4 +125,5 @@ const Container = styled.div`
     background-repeat: no-repeat;
     background-size: cover;
     background-position: center;
+    overflow: hidden;
 `

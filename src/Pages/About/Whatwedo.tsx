@@ -129,6 +129,7 @@ const Container = styled.div`
     display: flex;
     justify-content: center;
     padding-bottom: 40px;
+    overflow: hidden;
     @media screen and (max-width: 768px) {
         padding-top: 30px;
         width: 100%;
