@@ -117,7 +117,9 @@ const Header = () => {
         <Sidebarhold>
         <Sidebar>
           <label>ABOUT US</label>
-          <p>What We Do</p>
+          <NavLink to="/about" style={{textDecoration: "none"}}>
+            <p>What We Do</p>
+          </NavLink>
           <p>Locations</p>
           <p>Leadership</p>
           <label>BUSINESS</label>
