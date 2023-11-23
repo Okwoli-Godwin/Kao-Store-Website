@@ -114,7 +114,7 @@ const Header = () => {
       </Holder1>
 
       {show ? (
-        <Sidebarhold>
+        <Sidebarhold onClick={Toggle}>
         <Sidebar>
           <label>ABOUT US</label>
           <NavLink to="/about" style={{textDecoration: "none"}}>
