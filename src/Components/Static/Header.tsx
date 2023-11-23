@@ -62,7 +62,9 @@ const Header = () => {
   return (
     <Container>
       <Wrapper>
-        <img src={img} alt="" />
+        <NavLink to="/">
+          <img src={img} alt="" />
+        </NavLink>
         
         <Navholder>
           <NavLink to="/about" style={{textDecoration: "none"}}>
