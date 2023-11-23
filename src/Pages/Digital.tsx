@@ -89,6 +89,9 @@ const Wrapper = styled.div`
     @media screen and (max-width: 768px) {
         width: 95%;
     }
+    @media screen and (max-width: 500px){
+    padding-bottom: 30px;
+  }
 `
 const Container = styled.div`
     display: flex;

@@ -150,6 +150,9 @@ const Foot = styled.div`
   padding-top: 15px;
   padding-bottom: 15px;
   justify-content: center;
+  @media screen and (max-width: 500px){
+    padding-bottom: 20px;
+  }
 `
 const Emailholder = styled.div`
   button{
@@ -238,4 +241,5 @@ const Container = styled.div`
   margin-top: 50px;
   flex-direction: column;
   align-items: center;
+  overflow: hidden;
 `

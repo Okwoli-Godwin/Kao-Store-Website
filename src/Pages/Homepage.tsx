@@ -11,7 +11,6 @@ const Homepage = () => {
       <Hero />
       <Digital />
       <Empower />
-      {/* <Commitment /> */}
       <Latestnews />
     </Holder>
   )
@@ -22,6 +21,7 @@ const Holder = styled.div`
   width: 100%;
   height: 100%;
   padding-top: 10px;
+  overflow: hidden;
   @media screen and (max-width: 768px) {
     padding-top: 40px;
   }
