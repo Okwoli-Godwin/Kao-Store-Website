@@ -172,7 +172,7 @@ const Line = styled.div`
 const Wrapper = styled.div`
     h2{
         color: #282828;
-        @media screen and (max-width: 425px) {
+        @media screen and (max-width: 500px) {
             font-size: 21px;
             text-align: center;
         }
