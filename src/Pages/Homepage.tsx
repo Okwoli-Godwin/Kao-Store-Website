@@ -3,7 +3,6 @@ import Hero from './Hero'
 import styled from 'styled-components'
 import Digital from './Digital'
 import Empower from './Empower'
-import Commitment from './Commitment'
 import Latestnews from './Latestnews'
 
 const Homepage = () => {
