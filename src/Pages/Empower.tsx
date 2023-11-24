@@ -74,6 +74,9 @@ const Wrapper = styled.div`
         @media screen and (max-width: 320px) {
             font-size: 23px;
         }
+        @media screen and (max-width: 500px) {
+            font-size: 23px;
+        }
     }
     img{
         height: 370px;
