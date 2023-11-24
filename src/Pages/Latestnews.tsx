@@ -72,6 +72,9 @@ const Firsthold = styled.div`
     @media screen and (max-width: 768px) {
         padding-bottom: 40px;
     }
+    @media screen and (max-width: 500px) {
+        width: 100%;
+    }
 `
 const Wrapper = styled.div`
     width: 88%;
