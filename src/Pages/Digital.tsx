@@ -63,8 +63,8 @@ const Right = styled.div`
         letter-spacing: normal;
         line-height: 1.17;
         color: #282828;
-        @media screen and (max-width: 425px) {
-            font-size: 35px;
+        @media screen and (max-width: 500px) {
+            font-size: 30px;
         }
     }
 `
