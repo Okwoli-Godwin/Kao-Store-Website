@@ -125,6 +125,10 @@ const Text = styled.div`
         margin-top: -10px;
         font-size: 22px;
     }
+    @media screen and (max-width: 500px) {
+        margin-top: -10px;
+        font-size: 18px;
+    }
 `
 const Left = styled.div`
     width: 45%;
