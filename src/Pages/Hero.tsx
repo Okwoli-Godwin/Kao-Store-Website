@@ -11,10 +11,10 @@ const Hero = () => {
             
             <Holder>
                 <Left>
-                    <p>Empower Connect
-                        <span style={{color: "#0030AD"}}>
+                    <p>Buy and Pay With
+                        <span style={{color: "#0030AD", fontSize: "45px", marginTop: "25px"}}>
                             <Typewriter
-                                words={['Upgrade', 'Build', 'Shape', 'Grow']}
+                                words={['Crypto', 'Naira', 'USDT', 'Any Currency']}
                                 loop
                                 cursor
                                 typeSpeed={500}
