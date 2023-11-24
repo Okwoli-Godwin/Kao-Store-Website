@@ -1,6 +1,5 @@
 import React from 'react'
 import styled from 'styled-components'
-import { IoPlay } from "react-icons/io5";
 import { Typewriter } from 'react-simple-typewriter';
 import img from "../Assets/hero.png"
 
@@ -51,22 +50,6 @@ const Button = styled.button`
         margin-top: 20px;
     }
 `
-const Circle = styled.div`
-    width: 100px;
-    height: 100px;
-    background-color: #fff;
-    border-radius: 100px;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    cursor: pointer;
-    @media screen and (max-width: 425px) {
-        width: 75px;
-        height: 75px;
-        border-radius: 100px;
-    }
-`
-
 const Right = styled.div`
     width: 60%;
     display: flex;
