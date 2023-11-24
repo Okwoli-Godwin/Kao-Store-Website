@@ -84,7 +84,7 @@ const Container = styled.div`
     width: 100%;
     display: flex;
     justify-content: center;
-    /* background-color: #0030AD; */
+    background-color: #C2D1FA;
     padding-top: 40px;
     padding-bottom: 40px;
 `
