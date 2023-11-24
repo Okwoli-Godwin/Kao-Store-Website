@@ -86,7 +86,7 @@ const Header = () => {
             <Icon><MdKeyboardArrowDown /></Icon>
           </Nav>
           <Nav>
-            <Text>CONTACT US</Text>
+            <a style={{textDecoration: "none", color: "#282828"}} href="https://xtratheme.com/elementor/app-2/contact-us-2/"><Text>CONTACT US</Text></a>
           </Nav>
           <Nav>
             <Text>INVESTORS</Text>
@@ -134,7 +134,7 @@ const Header = () => {
           <label>PRESS</label>
           <p>News</p>
           <p>Media Kit</p>
-          <label>CONTACT US</label>
+          <a style={{textDecoration: "none", color: "#282828"}} href="https://xtratheme.com/elementor/app-2/contact-us-2/"><label>CONTACT US</label></a>
           <Label2>INVESTORS</Label2>
           <Label2>BLOG</Label2>
           <Label2>IMPACT</Label2>
