@@ -156,7 +156,7 @@ const Left = styled.div`
 const Holder = styled.div`
     width: 100%;
     display: flex;
-    margin-top: 20px;
+    margin-top: 40px;
     @media screen and (max-width: 768px){
         flex-wrap: wrap;
     }
