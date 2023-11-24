@@ -69,18 +69,22 @@ const Firsthold = styled.div`
     display: flex;
     flex-direction: column;
     align-items: center;
+    @media screen and (max-width: 768px) {
+        padding-bottom: 40px;
+    }
 `
 const Wrapper = styled.div`
     width: 88%;
     display: flex;
     align-items: center;
     justify-content: space-between;
+    flex-wrap: wrap;
 `
 const Container = styled.div`
     width: 100%;
     display: flex;
     justify-content: center;
     /* background-color: #0030AD; */
-    padding-top: 30px;
-    padding-bottom: 30px;
+    padding-top: 40px;
+    padding-bottom: 40px;
 `
