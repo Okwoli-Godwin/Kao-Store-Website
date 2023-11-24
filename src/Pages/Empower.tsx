@@ -35,7 +35,7 @@ const Line = styled.div`
     width: 40px;
     height: 4px;
     border-radius: 10px;
-    background-color: #F55203;
+    background-color: #0030AD;
     margin-top: 45px;
 `
 const Wrapper = styled.div`
