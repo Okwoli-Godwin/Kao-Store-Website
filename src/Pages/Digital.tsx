@@ -1,6 +1,6 @@
 import React from 'react'
 import styled from 'styled-components'
-import img from "../Assets/digitalimg.png"
+import img from "../Assets/crypto_transafer.png"
 
 const Digital = () => {
   return (
