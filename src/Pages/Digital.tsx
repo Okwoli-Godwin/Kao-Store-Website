@@ -13,7 +13,7 @@ const Digital = () => {
                 <h1>Africa's First Crypto Store</h1>
                 <p>The KAO Crypto Ecommerce Web App is designed to provide users with a secure and efficient way to make online purchases using cryptocurrency. By emphasizing the benefits of cryptocurrency transactions, the platform aims to attract a wide range of users interested in the advantages of this innovative payment method.</p>
                 
-                <Button>More about business</Button>
+                <Button>About Us</Button>
             </Right>
         </Wrapper>
     </Container>
@@ -22,7 +22,7 @@ const Digital = () => {
 
 export default Digital
 const Button = styled.button`
-    width: 200px;
+    width: 140px;
     height: 45px;
     background-color: #0030AD;
     color: #fff;
