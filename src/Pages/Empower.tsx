@@ -8,7 +8,7 @@ const Empower = () => {
         <Wrapper>
             <img src={img} alt="" />
               <Line></Line>
-              <h2>Empower, connect, build</h2>
+              <h2>Create Account, List Product, Sell</h2>
               <p>At the heart of our success is a group of entrepreneurs who are passionate about Africa and its digital transformation.</p>
               <Button>People</Button>
         </Wrapper>
