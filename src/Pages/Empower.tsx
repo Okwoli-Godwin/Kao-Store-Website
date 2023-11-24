@@ -9,7 +9,7 @@ const Empower = () => {
             <img src={img} alt="" />
               <Line></Line>
               <h2>Create Account, List Product, Sell</h2>
-              <p>At the heart of our success is a group of entrepreneurs who are passionate about Africa and its digital transformation.</p>
+              <p>Display a wide range of products with details, images, and prices. Allow filtering and search functionalities to find products easily</p>
               <Button>People</Button>
         </Wrapper>
     </Container>
