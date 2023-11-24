@@ -2,6 +2,7 @@ import React from 'react'
 import styled from 'styled-components'
 import { IoPlay } from "react-icons/io5";
 import { Typewriter } from 'react-simple-typewriter';
+import img from "../Assets/hero.png"
 
 const Hero = () => {
   return (
@@ -26,13 +27,7 @@ const Hero = () => {
                     <Button>About Kao</Button>
                 </Left>
                 <Right>
-                    <img src="https://images.pexels.com/photos/783262/pexels-photo-783262.jpeg?auto=compress&cs=tinysrgb&w=600" alt="" />
-                    
-                    <Playhold>
-                        <Circle>
-                            <Icon><IoPlay /></Icon>
-                        </Circle>
-                    </Playhold>
+                    <img src={img} alt="" />
                 </Right>
             </Holder>
         </Wrapper>
@@ -56,14 +51,6 @@ const Button = styled.button`
         margin-top: 20px;
     }
 `
-const Icon = styled.div`
-    color: #f55203;
-    font-size: 40px;
-    margin-top: 10px;
-    @media screen and (max-width: 425px) {
-        font-size: 30px;
-    }
-`
 const Circle = styled.div`
     width: 100px;
     height: 100px;
@@ -79,15 +66,7 @@ const Circle = styled.div`
         border-radius: 100px;
     }
 `
-const Playhold = styled.div`
-    position: absolute;
-    width: 100%;
-    height: 100%;
-    background-color: transparent;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-`
+
 const Right = styled.div`
     width: 60%;
     display: flex;
