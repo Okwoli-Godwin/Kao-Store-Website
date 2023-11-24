@@ -22,7 +22,7 @@ const Hero = () => {
                              />
                         </span>
                     </p>
-                    <Text>100% Africa, 100% Internet</Text>
+                    <Text>Convert USDT to Naira and vice versa at the current market rate</Text>
                     <Button>About Jumia</Button>
                 </Left>
                 <Right>
@@ -115,7 +115,7 @@ const Right = styled.div`
     }
 `
 const Text = styled.div`
-    font-size: 25px;
+    font-size: 20px;
     font-weight: 300;
     line-height: 1.13;
     font-family: 'Ubuntu', sans-serif;
