@@ -97,7 +97,6 @@ const Right = styled.div`
     border-top-right-radius: 50px;
     border-bottom-left-radius: 50px;
     overflow: hidden;
-        background-color: red;
     @media screen and (max-width: 768px) {
         width: 100%;
         margin-top: 30px;
@@ -167,7 +166,7 @@ const Line = styled.div`
     width: 40px;
     height: 4px;
     border-radius: 10px;
-    background-color: #F55203;
+    background-color: #0030AD;
 `
 const Wrapper = styled.div`
     h2{
