@@ -23,7 +23,7 @@ const Hero = () => {
                         </span>
                     </p>
                     <Text>Convert USDT to Naira and vice versa at the current market rate</Text>
-                    <Button>About Jumia</Button>
+                    <Button>About Kao</Button>
                 </Left>
                 <Right>
                     <img src="https://images.pexels.com/photos/783262/pexels-photo-783262.jpeg?auto=compress&cs=tinysrgb&w=600" alt="" />
