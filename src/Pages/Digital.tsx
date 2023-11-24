@@ -10,7 +10,7 @@ const Digital = () => {
                 <img src={img} alt="" />
             </Left>
             <Right>
-                <h1>A Digital Africa</h1>
+                <h1>Africa's First Crypto Store</h1>
                 <p>The KAO Crypto Ecommerce Web App is designed to provide users with a secure and efficient way to make online purchases using cryptocurrency. By emphasizing the benefits of cryptocurrency transactions, the platform aims to attract a wide range of users interested in the advantages of this innovative payment method.</p>
                 
                 <Button>More about business</Button>
@@ -56,7 +56,7 @@ const Right = styled.div`
     }
     h1{
         font-family: Ubuntu;
-        font-size: 43px;
+        font-size: 37px;
         font-stretch: normal;
         font-style: normal;
         font-weight: 400;
