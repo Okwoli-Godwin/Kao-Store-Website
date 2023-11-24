@@ -8,7 +8,6 @@ const Hero = () => {
     <Container>
         <Wrapper>
             <Line></Line>
-            <h2>The Leading E-commerce Platform in Africa</h2>
             
             <Holder>
                 <Left>
@@ -169,13 +168,6 @@ const Line = styled.div`
     background-color: #0030AD;
 `
 const Wrapper = styled.div`
-    h2{
-        color: #282828;
-        @media screen and (max-width: 500px) {
-            font-size: 21px;
-            text-align: center;
-        }
-    }
     width: 88%;
     display: flex;
     flex-direction: column;
