@@ -11,7 +11,7 @@ const Digital = () => {
             </Left>
             <Right>
                 <h1>A Digital Africa</h1>
-                <p>We are the leading pan-African e-commerce platform active across 11 countries in the continent. Our platform consists of a marketplace connecting thousands of sellers to millions of consumers, with integrated logistics and digital payment services.</p>
+                <p>The KAO Crypto Ecommerce Web App is designed to provide users with a secure and efficient way to make online purchases using cryptocurrency. By emphasizing the benefits of cryptocurrency transactions, the platform aims to attract a wide range of users interested in the advantages of this innovative payment method.</p>
                 
                 <Button>More about business</Button>
             </Right>
