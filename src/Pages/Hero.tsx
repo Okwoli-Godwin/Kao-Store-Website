@@ -64,7 +64,7 @@ const Right = styled.div`
     }
     @media screen and (max-width: 500px) {
         width: 100%;
-        height: 270px;
+        height: 300px;
     }
     @media screen and (max-width: 320px) {
         width: 100%;
