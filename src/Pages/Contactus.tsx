@@ -72,9 +72,10 @@ const Button = styled.button`
     align-items: center;
     border: none;
     border-radius: 8px;
-    font-size: 20px;
+    font-size: 16px;
     font-weight: 500;
     color: #0030AD;
+    margin-top: 20px;
 `
 const Textareahold = styled.div`
     width: 100%;
@@ -157,6 +158,7 @@ const Wrapper = styled.div`
     display: flex;
     flex-direction: column;
     align-items: center;
+    padding-top: 90px;;
     /* height: 40px; */
 `
 
