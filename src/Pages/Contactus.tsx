@@ -52,6 +52,8 @@ const Contactus = () => {
                             <p>Your Question (*)</p>
                             <textarea></textarea>
                         </Textareahold>
+                        
+                        <Button>Ask</Button>
                     </Holder>
                 </Details>
             </Cardhold>
@@ -61,13 +63,29 @@ const Contactus = () => {
 }
 
 export default Contactus
+const Button = styled.button`
+    width: 120px;
+    height: 40px;
+    background-color: #fff;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border: none;
+    border-radius: 8px;
+    font-size: 20px;
+    font-weight: 500;
+    color: #0030AD;
+`
 const Textareahold = styled.div`
     width: 100%;
     display: flex;
     flex-direction: column;
+    p{
+        color: rgba(255,255,255,.6);
+    }
     textarea{
-        height: 200px;
-        border-radius: 5px;
+        height: 150px;
+        border-radius: 8px;
         resize: none;
     }
 `
