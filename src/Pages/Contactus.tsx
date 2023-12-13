@@ -27,12 +27,34 @@ const Contactus = () => {
                 <Text>121 King street Abuja</Text>
             </Hold>
             </Wrap>
+            
+            <Cardhold>
+                <Details>
+                    <h1>Get in touch with us</h1>
+                </Details>
+            </Cardhold>
         </Wrapper>
     </Container>
   )
 }
 
 export default Contactus
+const Details = styled.div`
+    width: 60%;
+    padding-top: 20px;
+    padding-left: 40px;
+    background-color: #0030AD;
+    border-radius: 20px;
+    h1{
+        color: #fff;
+        font-size: 33px;
+    }
+`
+const Cardhold = styled.div`
+    width: 100%;
+    display: flex;
+    margin-top: 70px;
+`
 const Wrap = styled.div`
     display: flex;
     width: 100%;
@@ -60,6 +82,8 @@ const Hold = styled.div`
 const Wrapper = styled.div`
     width: 88%;
     display: flex;
+    flex-direction: column;
+    align-items: center;
     /* height: 40px; */
 `
 
