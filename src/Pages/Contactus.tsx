@@ -31,6 +31,12 @@ const Contactus = () => {
             <Cardhold>
                 <Details>
                     <h1>Get in touch with us</h1>
+                    <Holder>
+                        <Inputhold>
+                            <p>Your Name (*)</p>
+                            <input type="text" />
+                        </Inputhold>
+                    </Holder>
                 </Details>
             </Cardhold>
         </Wrapper>
@@ -39,12 +45,24 @@ const Contactus = () => {
 }
 
 export default Contactus
+const Inputhold = styled.div`
+    flex-direction: column;
+    p{
+        color: rgba(255,255,255,.6);
+    }
+`
+const Holder = styled.div`
+    display: flex;
+    flex-wrap: wrap;
+`
 const Details = styled.div`
     width: 60%;
     padding-top: 20px;
     padding-left: 40px;
+    padding-right: 40px;
     background-color: #0030AD;
     border-radius: 20px;
+    flex-direction: column;
     h1{
         color: #fff;
         font-size: 33px;
