@@ -36,6 +36,22 @@ const Contactus = () => {
                             <p>Your Name (*)</p>
                             <input type="text" />
                         </Inputhold>
+                        <Inputhold>
+                            <p>Your Email (*)</p>
+                            <input type="email" />
+                        </Inputhold>
+                        <Inputhold>
+                            <p>Subject (*)</p>
+                            <input type="text" />
+                        </Inputhold>
+                        <Inputhold>
+                            <p>Department (*)</p>
+                            <input type="text" />
+                        </Inputhold>
+                        <Textareahold>
+                            <p>Your Question (*)</p>
+                            <textarea></textarea>
+                        </Textareahold>
                     </Holder>
                 </Details>
             </Cardhold>
@@ -45,19 +61,40 @@ const Contactus = () => {
 }
 
 export default Contactus
+const Textareahold = styled.div`
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    textarea{
+        height: 200px;
+        border-radius: 5px;
+        resize: none;
+    }
+`
 const Inputhold = styled.div`
     flex-direction: column;
+    padding-bottom: 20px;
     p{
         color: rgba(255,255,255,.6);
+    }
+    input{
+        width: 290px;
+        height: 40px;
+        border: none;
+        outline: none;
+        border-radius: 5px;
+        padding-left: 12px;
     }
 `
 const Holder = styled.div`
     display: flex;
     flex-wrap: wrap;
+    justify-content: space-between;
 `
 const Details = styled.div`
     width: 60%;
     padding-top: 20px;
+    padding-bottom: 20px;
     padding-left: 40px;
     padding-right: 40px;
     background-color: #0030AD;
