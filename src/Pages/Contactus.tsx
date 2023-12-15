@@ -10,8 +10,8 @@ const libraries: Libraries = ["places"];
         height: "100vh"
     };
     const center = {
-        lat: 7.2905715,
-        lng: 80.6337262
+        lat: 9.0765,
+        lng: 7.3986
     }
 
 const Contactus = () => {
@@ -97,10 +97,13 @@ const Contactus = () => {
 
 export default Contactus
 const Mapholder = styled.div`
-    width: 38%;
+    width: 35%;
     display: flex;
     background-color: red;
     border-radius: 20px;
+    position: absolute;
+    overflow: hidden;
+    right: 60px;
 `
 const Button = styled.button`
     width: 120px;
