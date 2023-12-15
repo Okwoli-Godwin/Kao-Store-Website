@@ -57,12 +57,22 @@ const Contactus = () => {
                     </Holder>
                 </Details>
             </Cardhold>
+
+            <Mapholder>
+                
+            </Mapholder>
         </Wrapper>
     </Container>
   )
 }
 
 export default Contactus
+const Mapholder = styled.div`
+    width: 38%;
+    display: flex;
+    background-color: red;
+    height: 100px;
+`
 const Button = styled.button`
     width: 120px;
     height: 40px;
