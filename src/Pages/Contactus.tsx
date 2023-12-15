@@ -97,13 +97,21 @@ const Contactus = () => {
 
 export default Contactus
 const Mapholder = styled.div`
-    width: 35%;
+    width: 38%;
     display: flex;
     background-color: red;
     border-radius: 20px;
     position: absolute;
     overflow: hidden;
-    right: 60px;
+    right: 10px;
+    @media screen and (max-width: 768px) {
+        position: relative;
+        width: 100%;
+        margin-top: 25px;
+    }
+     @media screen and (max-width: 500px) {
+        margin-left: 17px;
+    }
 `
 const Button = styled.button`
     width: 120px;
@@ -130,11 +138,17 @@ const Textareahold = styled.div`
         height: 150px;
         border-radius: 8px;
         resize: none;
+         @media screen and (max-width: 500px) {
+        width: 100%;
+    }
     }
 `
 const Inputhold = styled.div`
     flex-direction: column;
     padding-bottom: 20px;
+     @media screen and (max-width: 500px) {
+        width: 100%;
+    }
     p{
         color: rgba(255,255,255,.6);
     }
@@ -145,6 +159,9 @@ const Inputhold = styled.div`
         outline: none;
         border-radius: 5px;
         padding-left: 12px;
+        @media screen and (max-width: 500px) {
+        width: 100%;
+    }
     }
 `
 const Holder = styled.div`
@@ -161,6 +178,9 @@ const Details = styled.div`
     background-color: #0030AD;
     border-radius: 20px;
     flex-direction: column;
+    @media screen and (max-width: 768px) {
+        width: 100%;
+    }
     h1{
         color: #fff;
         font-size: 33px;
@@ -171,11 +191,20 @@ const Cardhold = styled.div`
     display: flex;
     margin-top: 70px;
     justify-content: space-between;
+    flex-wrap: wrap;
+    position: relative;
+    @media screen and (max-width: 768px) {
+        position: static;
+    }
+    @media screen and (max-width: 500px) {
+        margin-top: 50px;
+    }
 `
 const Wrap = styled.div`
     display: flex;
     width: 100%;
     justify-content: space-between;
+    flex-wrap: wrap;
 `
 const Text = styled.div`
     margin-left: 20px;
@@ -195,14 +224,19 @@ const Iconhold = styled.div`
 const Hold = styled.div`
     display: flex;
     align-items: center;
+    margin-bottom: 20px;
 `
 const Wrapper = styled.div`
     width: 88%;
     display: flex;
     flex-direction: column;
     align-items: center;
-    padding-top: 90px;;
+    padding-top: 90px;
     /* height: 40px; */
+    @media screen and (max-width: 500px) {
+        padding-top: 100px;
+        width: 95%;
+    }
 `
 
 const Container = styled.div`
