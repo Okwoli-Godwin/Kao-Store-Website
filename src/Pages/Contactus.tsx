@@ -56,11 +56,11 @@ const Contactus = () => {
                         <Button>Ask</Button>
                     </Holder>
                 </Details>
-            </Cardhold>
-
-            <Mapholder>
                 
-            </Mapholder>
+                <Mapholder>
+                
+                </Mapholder>
+            </Cardhold>
         </Wrapper>
     </Container>
   )
@@ -70,8 +70,8 @@ export default Contactus
 const Mapholder = styled.div`
     width: 38%;
     display: flex;
-    background-color: red;
-    height: 100px;
+    /* background-color: red; */
+    border-radius: 20px;
 `
 const Button = styled.button`
     width: 120px;
@@ -107,7 +107,7 @@ const Inputhold = styled.div`
         color: rgba(255,255,255,.6);
     }
     input{
-        width: 290px;
+        width: 260px;
         height: 40px;
         border: none;
         outline: none;
@@ -121,7 +121,7 @@ const Holder = styled.div`
     justify-content: space-between;
 `
 const Details = styled.div`
-    width: 60%;
+    width: 55%;
     padding-top: 20px;
     padding-bottom: 20px;
     padding-left: 40px;
@@ -138,6 +138,7 @@ const Cardhold = styled.div`
     width: 100%;
     display: flex;
     margin-top: 70px;
+    justify-content: space-between;
 `
 const Wrap = styled.div`
     display: flex;
