@@ -1,9 +1,22 @@
-import React from 'react'
+import React, {useState} from 'react'
 import styled from 'styled-components'
 import { Typewriter } from 'react-simple-typewriter';
 import img from "../Assets/hero.png"
+import { FaPlay } from "react-icons/fa6";
+import { BiXCircle } from "react-icons/bi";
 
 const Hero = () => {
+    const [vid, setVid] = useState<Boolean>(true)
+    const [, setCancle] = useState(true)
+    
+    const Show = () => {
+        setVid(false)
+    }
+
+    const Can = () => {
+        setCancle(true)
+        setVid(true)
+    }
   return (
     <Container>
         <Wrapper>
@@ -27,14 +40,75 @@ const Hero = () => {
                 </Left>
                 <Right>
                     <img src={img} alt="" />
+                    <Vidplay onClick={Show}>
+                        <FaPlay />
+                    </Vidplay>
                 </Right>
             </Holder>
+            
+            {!vid ? (
+                <Vidhold>
+                    <Card>
+                        <iframe
+                            width="953"
+                            height="480"
+                             src="https://www.youtube.com/embed/oCLPj1cXQdI"
+                             title="YouTube video player"
+                            allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+                        >
+                        </iframe>
+                    </Card>
+                    <Cancle onClick={Can} onChangeCapture={Show}>
+                        <BiXCircle />
+                    </Cancle>
+                </Vidhold>
+            ) : null}
         </Wrapper>
     </Container>
   )
 }
 
 export default Hero
+const Cancle = styled.div`
+  font-size: 40px;
+  position: absolute;
+  right: 20px;
+  top: 90px;
+  color: white;
+  cursor: pointer;
+`;
+const Card = styled.div`
+  width: 80%;
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+`;
+const Vidhold = styled.div`
+  width: 100%;
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background: #000;
+  position: absolute;
+  top: 0;
+  position: fixed;
+  z-index: 5;
+`;
+const Vidplay = styled.div`
+    display: flex;
+    width: 100px;
+    height: 100px;
+    background-color: #fff;
+    position: absolute;
+    border-radius: 50px;
+    justify-content: center;
+    align-items: center;
+    color: #0030AD;
+    font-size: 35px;
+    cursor: pointer;
+`
 const Button = styled.button`
     width: 145px;
     height: 45px;
@@ -58,6 +132,8 @@ const Right = styled.div`
     border-top-right-radius: 50px;
     border-bottom-left-radius: 50px;
     overflow: hidden;
+    justify-content: center;
+    align-items: center;
     @media screen and (max-width: 768px) {
         width: 100%;
         margin-top: 30px;
