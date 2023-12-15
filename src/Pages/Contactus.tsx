@@ -2,8 +2,31 @@ import React from 'react'
 import styled from "styled-components"
 import { MdEmail, MdLocationPin  } from "react-icons/md";
 import { BiSolidPhoneCall } from "react-icons/bi";
+import { GoogleMap, useLoadScript, Marker, Libraries } from "@react-google-maps/api"
+
+const libraries: Libraries = ["places"];
+    const mapContainerStyle = {
+        width: "100vw",
+        height: "100vh"
+    };
+    const center = {
+        lat: 7.2905715,
+        lng: 80.6337262
+    }
 
 const Contactus = () => {
+    const { isLoaded, loadError } = useLoadScript({
+        googleMapsApiKey: "AIzaSyCsxCWx_FVJ0xBrk4gwbUgGHTkZkUvA9IQ",
+        libraries
+    })
+
+    if (loadError) {
+        return <div>Error Loading Maps</div>
+    }
+
+    if (!isLoaded) {
+        return <div>Loading Maps</div>
+    }
   return (
     <Container>
         <Wrapper>
@@ -58,7 +81,13 @@ const Contactus = () => {
                 </Details>
                 
                 <Mapholder>
-                
+                    <GoogleMap 
+                        mapContainerStyle={mapContainerStyle}
+                        zoom={10}
+                        center={center}
+                    >
+                        <Marker position={center}/>
+                    </GoogleMap>
                 </Mapholder>
             </Cardhold>
         </Wrapper>
@@ -70,7 +99,7 @@ export default Contactus
 const Mapholder = styled.div`
     width: 38%;
     display: flex;
-    /* background-color: red; */
+    background-color: red;
     border-radius: 20px;
 `
 const Button = styled.button`
