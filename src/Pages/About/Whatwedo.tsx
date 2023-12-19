@@ -36,13 +36,13 @@ const Whatwedo = () => {
 
 export default Whatwedo
 const Icon = styled.div`
-    color: #f55203;
+    color: #0030AD;
     font-size: 12px;
     margin-top: 30px;
     margin-left: 20px;
 `
 const P = styled.div`
-    color: #f55203;
+    color: #0030AD;
     font-family: "Ubuntu";
     font-size: .875rem;
     font-stretch: normal;
@@ -102,7 +102,7 @@ const Line = styled.div`
     width: 40px;
     height: 4px;
     border-radius: 10px;
-    background-color: #F55203;
+    background-color: #0030AD;
 `
 const Wrapper = styled.div`
     h2{
