@@ -179,11 +179,20 @@ const Sidebar = styled.div`
 const Sidebarhold = styled.div`
   width: 100%;
   height: calc(100vh - 70px);
-  /* position: absolute; */
   background-color: rgba(0, 0, 0, 0.5);
   top: 70px;
   overflow: hidden;
   position: fixed;
+  animation: slide-in 0.5s ease-out;
+
+  @keyframes slide-in {
+    from {
+      transform: translateX(100%);
+    }
+    to {
+      transform: translateX(0);
+    }
+  }
 `
 const Menu = styled.div`
   font-size: 23px;
