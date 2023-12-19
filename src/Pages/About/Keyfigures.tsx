@@ -66,7 +66,7 @@ const First = styled.div`
         }
     }
     h1{
-        color: #f55203;
+        color: #0030AD;
         font-weight: 500;
         font-size: 38px;
         font-family: Ubuntu;
@@ -89,7 +89,7 @@ const Line = styled.div`
     width: 40px;
     height: 4px;
     border-radius: 10px;
-    background-color: #F55203;
+    background-color: #0030AD;
 `
 const Wrapper = styled.div`
     h2{
@@ -113,7 +113,7 @@ const Wrapper = styled.div`
 const Holder = styled.div`
     width: 100%;
     display: flex;
-    background-color: rgba(0, 0, 0, 0.5);
+    /* background-color: rgba(0, 0, 0, 0.5); */
     padding-top: 50px;
     padding-bottom: 20px;
     justify-content: center;
@@ -121,9 +121,6 @@ const Holder = styled.div`
 const Container = styled.div`
     width: 100%;
     display: flex;
-    background-image: url('https://group-live.jumia.is/images/about/banner/key-figures.png');
-    background-repeat: no-repeat;
-    background-size: cover;
-    background-position: center;
     overflow: hidden;
+    background-color: #C2D1FA;
 `

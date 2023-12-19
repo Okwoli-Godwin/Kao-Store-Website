@@ -54,6 +54,12 @@ const P = styled.div`
     -webkit-text-decoration: underline;
     text-decoration: underline;
     margin-top: 30px;
+    @media screen and (max-width: 500px) {
+        width: 100%;
+        align-items: center;
+        display: flex;
+        justify-content: center;
+    }
 `
 const Cardhold = styled.div`
     width: 48%;
@@ -75,6 +81,13 @@ const Cardhold = styled.div`
         font-size: 16px;
         line-height: 1.5;
         margin: 0;
+        @media screen and (max-width: 500px) {
+        width: 100%;
+        align-items: center;
+        display: flex;
+        justify-content: center;
+        text-align: center;
+    }
     }
     h3{
         color: #282828;
@@ -85,6 +98,12 @@ const Cardhold = styled.div`
         font-weight: 500;
         letter-spacing: normal;
         line-height: 1.25;
+        @media screen and (max-width: 500px) {
+        width: 100%;
+        align-items: center;
+        display: flex;
+        justify-content: center;
+    }
     }
     img{
         width: 100%;
