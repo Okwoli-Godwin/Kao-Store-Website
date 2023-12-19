@@ -6,8 +6,8 @@ import Dropdown1 from './Dropdown1';
 import Dropdown2 from './Dropdown2';
 import Dropdown3 from './Dropdown3';
 import Dropdown4 from './Dropdown4';
-import { FiMenu } from "react-icons/fi";
 import { NavLink } from 'react-router-dom';
+import { Twirl as Hamburger } from 'hamburger-react'
 
 const Header = () => {
   const [isDropdownOpen, setIsDropdownOpen] = useState(false)
@@ -101,7 +101,7 @@ const Header = () => {
           </Nav>
         </Navholder>
 
-        <Menu onClick={Toggle}><FiMenu /></Menu>
+        <Menu onClick={Toggle}><Hamburger size={20}/></Menu>
       </Wrapper>
 
       <Holder1 isOpen={isDropdownOpen} onMouseLeave={handleNavItemLeave}>

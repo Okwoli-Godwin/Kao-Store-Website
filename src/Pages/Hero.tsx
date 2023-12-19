@@ -20,7 +20,7 @@ const Hero = () => {
   return (
     <Container>
         <Wrapper>
-            <Line></Line>
+              <Line></Line>
             
             <Holder>
                 <Left>
