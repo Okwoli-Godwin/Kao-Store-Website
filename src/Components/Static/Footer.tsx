@@ -130,8 +130,10 @@ const Holder1 = styled.div`
   @media screen and (max-width: 768px) {
     width: 200px;
 }
-  @media screen and (max-width: 425px) {
-    width: 100%;
+  @media screen and (max-width: 500px) {
+    width: 50%;
+    padding-bottom: 20px;
+    /* background-color: red; */
 }
 `
 const Wrap = styled.div`
