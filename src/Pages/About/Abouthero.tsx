@@ -58,6 +58,10 @@ const Left = styled.div`
     @media screen and (max-width: 768px) {
         width: 100%;
     }
+    @media screen and (max-width: 500px) {
+        width: 100%;
+        align-items: center;
+    }
     p{
         font-family: Ubuntu;
         font-stretch: normal;
@@ -72,6 +76,10 @@ const Left = styled.div`
         width: 350px;
         @media screen and (max-width: 768px) {
             width: 100%;
+        }
+        @media screen and (max-width: 500px) {
+            width: 100%;
+            text-align: center;
         }
     }
     h1{
@@ -97,12 +105,12 @@ const Line = styled.div`
     width: 40px;
     height: 4px;
     border-radius: 10px;
-    background-color: #F55203;
+    background-color: #0030AD;
 `
 const Wrapper = styled.div`
     h2{
         color: #282828;
-        @media screen and (max-width: 425px) {
+        @media screen and (max-width: 500px) {
             font-size: 21px;
             text-align: center;
         }
