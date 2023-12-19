@@ -17,6 +17,8 @@ const Hero = () => {
         setCancle(true)
         setVid(true)
     }
+
+    const myVideo = require("../Assets/vid.mp4");
   return (
     <Container>
         <Wrapper>
@@ -50,10 +52,10 @@ const Hero = () => {
                 <Vidhold>
                     <Card>
                         <iframe
-                            width="953"
-                            height="480"
-                             src="https://www.youtube.com/embed/oCLPj1cXQdI"
-                             title="YouTube video player"
+                            src={myVideo}
+                            title="YouTube video player"
+                            frameBorder="0"
+                            allowFullScreen
                             allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
                         >
                         </iframe>
@@ -78,11 +80,17 @@ const Cancle = styled.div`
   cursor: pointer;
 `;
 const Card = styled.div`
-  width: 80%;
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100vw;
   height: 100vh;
-  display: flex;
-  justify-content: center;
-  align-items: center;
+  overflow: hidden;
+
+  iframe {
+  width: 100%;
+  height: 100%;
+}
 `;
 const Vidhold = styled.div`
   width: 100%;
@@ -220,6 +228,7 @@ const Wrapper = styled.div`
     }
     @media screen and (max-width: 500px) {
         width: 95%;
+        padding-top: 40px;
     }
 `
 const Container = styled.div`
