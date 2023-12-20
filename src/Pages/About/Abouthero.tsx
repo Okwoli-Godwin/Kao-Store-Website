@@ -18,7 +18,9 @@ const Abouthero = () => {
                 </Slide>
                 </Left>
                 <Right>
-                    <img src={img} alt="" />
+                    <Slide direction='right'>
+                        <img src={img} alt="" />
+                    </Slide>
                 </Right>
             </Holder>
         </Wrapper>
