@@ -1,6 +1,7 @@
 import React from 'react'
 import styled from 'styled-components'
 import img from "../../Assets/frepik.png"
+import { Slide } from "react-awesome-reveal";
 
 const Abouthero = () => {
   return (
@@ -10,9 +11,11 @@ const Abouthero = () => {
             <h2>Welcome to Kao Store</h2>
             
             <Holder>
-                <Left>
+                    <Left>
+                <Slide direction='left'>
                     <h1>Our mission</h1>
                     <p>We believe that technology has the potential to transform everyday life in Africa, for the better. We built Jumia to help consumers access millions of goods and services conveniently and at the best prices while opening up a new way for sellers to reach consumers and grow their businesses.</p>
+                </Slide>
                 </Left>
                 <Right>
                     <img src={img} alt="" />
@@ -118,7 +121,7 @@ const Wrapper = styled.div`
     display: flex;
     flex-direction: column;
     align-items: center;
-    padding-top: 80px;
+    padding-top: 150px;
     @media screen and (max-width: 768px) {
         width: 95%;
     }
