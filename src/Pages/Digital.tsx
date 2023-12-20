@@ -1,6 +1,7 @@
 import React from 'react'
 import styled from 'styled-components'
 import img from "../Assets/crypto_transafer.png"
+import {NavLink} from "react-router-dom"
 
 const Digital = () => {
   return (
@@ -13,7 +14,9 @@ const Digital = () => {
                 <h1>Africa's First Crypto Store</h1>
                 <p>The KAO Crypto Ecommerce Web App is designed to provide users with a secure and efficient way to make online purchases using cryptocurrency. By emphasizing the benefits of cryptocurrency transactions, the platform aims to attract a wide range of users interested in the advantages of this innovative payment method.</p>
                 
-                <Button>About Us</Button>
+                <NavLink to="/about">
+                    <Button>About Us</Button>
+                </NavLink>
             </Right>
         </Wrapper>
     </Container>

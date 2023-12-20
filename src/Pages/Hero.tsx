@@ -38,7 +38,7 @@ const Hero = () => {
                         </span>
                     </p>
                     <Text>Convert USDT to Naira and vice versa at the current market rate</Text>
-                    <Button>About Kao</Button>
+                    <Button>Get Started</Button>
                 </Left>
                 <Right>
                     <img src={img} alt="" />

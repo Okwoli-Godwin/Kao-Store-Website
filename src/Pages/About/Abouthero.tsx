@@ -7,7 +7,7 @@ const Abouthero = () => {
     <Container>
         <Wrapper>
             <Line></Line>
-            <h2>Welcome to Jumia</h2>
+            <h2>Welcome to Kao Store</h2>
             
             <Holder>
                 <Left>
