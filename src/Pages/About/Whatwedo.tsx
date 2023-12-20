@@ -13,7 +13,7 @@ const Whatwedo = () => {
                 <Cardhold>
                     <img src="https://group-live.jumia.is/images/about/4by3/about-01.png" alt="" />
                     <h3>Serving Consumers</h3>
-                    <p>Jumia delivers innovative, convenient and affordable online services to consumers in Africa that help them fulfil their everyday needs.</p>
+                    <p>Kao Store delivers innovative, convenient and affordable online services to consumers in Africa that help them fulfil their everyday needs.</p>
                     <div style={{display: "flex", alignItems: "center"}}>
                         <P>Discover our services for consumers</P>
                         <Icon><FaArrowRight /></Icon>
@@ -22,7 +22,7 @@ const Whatwedo = () => {
                 <Cardhold>
                     <img src="https://group-live.jumia.is/images/about/4by3/about-02.png" alt="" />
                     <h3>Empowering Businesses</h3>
-                    <p>Jumia takes African economies online, helping small and large businesses grow and reach new consumers, empowering a new generation to build their lives and make their communities better.</p>
+                    <p>Kao Store takes African economies online, helping small and large businesses grow and reach new consumers, empowering a new generation to build their lives and make their communities better.</p>
                     <div style={{display: "flex", alignItems: "center"}}>
                         <P>Discover our services for businesses</P>
                         <Icon><FaArrowRight /></Icon>
