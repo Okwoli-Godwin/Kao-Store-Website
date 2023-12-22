@@ -136,7 +136,7 @@ const Header = () => {
           <label>PRESS</label>
           <p>News</p>
           <p>Media Kit</p>
-          <NavLink to="/contact-us">
+          <NavLink to="/contact-us" style={{textDecoration: "none"}}>
             <p>CONTACT US</p>
           </NavLink>
           <Label2>INVESTORS</Label2>
