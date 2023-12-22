@@ -45,6 +45,11 @@ const Right = styled.div`
     @media screen and (max-width: 768px) {
         width: 100%;
     }
+    @media screen and (max-width: 768px) {
+        width: 100%;
+        display: flex;
+        align-items: center;
+    }
     p{
         margin: 0;
         font-family: Ubuntu;
@@ -56,6 +61,10 @@ const Right = styled.div`
         color: #282828;
         font-size: 16px;
         line-height: 1.5;
+    @media screen and (max-width: 768px) {
+        width: 100%;
+        text-align: center;
+    }
     }
     h1{
         font-family: Ubuntu;
