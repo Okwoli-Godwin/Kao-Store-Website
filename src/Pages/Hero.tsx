@@ -183,6 +183,11 @@ const Left = styled.div`
     @media screen and (max-width: 768px) {
         width: 100%;
     }
+    @media screen and (max-width: 500px) {
+        width: 100%;
+        display: flex;
+        align-items: center;
+    }
     p{
         font-size: 75px;
         width: 320px;
@@ -196,10 +201,11 @@ const Left = styled.div`
         font-size: 40px;
         font-weight: 100;
     }
-        @media screen and (max-width: 425px) {
+        @media screen and (max-width: 500px) {
         width: 100%;
         font-size: 40px;
         font-weight: 100;
+        text-align: center;
     }
     }
 `
