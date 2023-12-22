@@ -1,6 +1,7 @@
 import React from 'react'
 import styled from 'styled-components'
 import { FaArrowRight } from "react-icons/fa";
+import {Fade} from "react-awesome-reveal"
 
 const Whatwedo = () => {
   return (
@@ -12,21 +13,25 @@ const Whatwedo = () => {
             <Holder>
                 <Cardhold>
                     <img src="https://group-live.jumia.is/images/about/4by3/about-01.png" alt="" />
-                    <h3>Serving Consumers</h3>
+                    <Fade direction='up' duration={2000}>
+                        <h3>Serving Consumers</h3>
                     <p>Kao Store delivers innovative, convenient and affordable online services to consumers in Africa that help them fulfil their everyday needs.</p>
                     <div style={{display: "flex", alignItems: "center"}}>
                         <P>Discover our services for consumers</P>
                         <Icon><FaArrowRight /></Icon>
                     </div>
+                    </Fade>
                 </Cardhold>
                 <Cardhold>
                     <img src="https://group-live.jumia.is/images/about/4by3/about-02.png" alt="" />
-                    <h3>Empowering Businesses</h3>
+                    <Fade direction='up' duration={2000}>
+                        <h3>Empowering Businesses</h3>
                     <p>Kao Store takes African economies online, helping small and large businesses grow and reach new consumers, empowering a new generation to build their lives and make their communities better.</p>
                     <div style={{display: "flex", alignItems: "center"}}>
                         <P>Discover our services for businesses</P>
                         <Icon><FaArrowRight /></Icon>
                     </div>
+                    </Fade>
                 </Cardhold>
             </Holder>
         </Wrapper>
