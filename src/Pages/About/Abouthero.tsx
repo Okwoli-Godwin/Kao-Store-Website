@@ -12,13 +12,13 @@ const Abouthero = () => {
             
             <Holder>
                     <Left>
-                <Slide direction='left'>
+                <Slide direction='left' duration={2000}>
                     <h1>Our mission</h1>
                     <p>We believe that technology has the potential to transform everyday life in Africa, for the better. We built Jumia to help consumers access millions of goods and services conveniently and at the best prices while opening up a new way for sellers to reach consumers and grow their businesses.</p>
                 </Slide>
                 </Left>
                 <Right>
-                    <Slide direction='right'>
+                    <Slide direction='right' duration={2000}>
                         <img src={img} alt="" />
                     </Slide>
                 </Right>
