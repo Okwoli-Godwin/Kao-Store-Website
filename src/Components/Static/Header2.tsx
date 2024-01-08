@@ -41,7 +41,7 @@ const Header2 = () => {
                 <img src={img} alt="" />
             </NavLink>
             
-            <Navholder cc="">
+            <Navholder cc="#fff">
                 <Nav>About Us</Nav>
                 <Nav>Contact Us</Nav>
                 <Nav>Solution</Nav>
