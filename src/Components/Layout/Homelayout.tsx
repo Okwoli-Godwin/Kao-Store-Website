@@ -1,11 +1,11 @@
 import React from 'react'
 import { Outlet } from "react-router-dom"
-import { Header, Footer } from '../Static'
+import { Footer, Header2 } from '../Static'
 
 const Homelayout = () => {
   return (
     <div>
-        <Header />
+        <Header2 />
         <Outlet />
         <Footer />
     </div>
