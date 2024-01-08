@@ -2,9 +2,15 @@ import React, {useState} from 'react'
 import styled from "styled-components"
 import img from "../../Assets/KAO_Logo_PNG.png"
 import { NavLink } from 'react-router-dom'; 
+import { Twirl as Hamburger } from 'hamburger-react'
 
 const Header2 = () => {
     const [scroll, setScroll] = useState<Boolean>(false)
+    const [show, setShow] = useState(false)
+
+  const Toggle = () => {
+    setShow(!show)
+  }
 
     const changeHeaderColor = () => {
         if (window.scrollY >= 70) {
@@ -32,6 +38,7 @@ const Header2 = () => {
             </Navholder>
             
             <Button>Apply</Button>
+            <Menu onClick={Toggle}><Hamburger size={20}/></Menu>
           </Wrapper>
     </Container>
           ) : (
@@ -49,6 +56,7 @@ const Header2 = () => {
             </Navholder>
             
             <Button>Apply</Button>
+            <Menu onClick={Toggle}><Hamburger size={20}/></Menu>
           </Wrapper>
     </Container>
           )}
@@ -57,6 +65,15 @@ const Header2 = () => {
 }
 
 export default Header2
+const Menu = styled.div`
+  font-size: 23px;
+  cursor: pointer;
+  color: #fff;
+  visibility: hidden;
+  @media screen and (max-width: 500px) {
+    visibility: visible;
+  }
+`
 const Button = styled.div`
     visibility: hidden;
 `
@@ -70,6 +87,9 @@ const Navholder = styled.div<{cc: string}>`
     display: flex;
     align-items: center;
     color: ${(props) => props.cc};
+    @media screen and (max-width: 500px) {
+    display: none;
+  }
 `
 const Wrapper = styled.div`
     width: 90%;
