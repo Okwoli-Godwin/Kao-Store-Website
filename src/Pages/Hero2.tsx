@@ -58,6 +58,12 @@ const GradientText = styled(animated.span)`
   background-clip: text;
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
+     @media screen and (max-width: 500px) {
+        font-size: 45px;
+    }
+     @media screen and (max-width: 375px) {
+        font-size: 25px;
+    }
 `;
 
 const Video = styled.video`
@@ -79,6 +85,9 @@ const Wrapper = styled.div`
         color: #fff;
         width: 500px;
         text-align: center;
+        @media screen and (max-width: 500px) {
+            font-size: 40px;
+        }
         span{
             font-size: 75px;
         }
