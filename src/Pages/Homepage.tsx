@@ -4,10 +4,12 @@ import styled from 'styled-components'
 import Digital from './Digital'
 import Empower from './Empower'
 import Latestnews from './Latestnews'
+import Hero2 from './Hero2'
 
 const Homepage = () => {
   return (
     <Holder>
+      <Hero2 />
       <Hero />
       <Digital />
       <Empower />
