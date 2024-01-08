@@ -5,12 +5,14 @@ import Digital from './Digital'
 import Empower from './Empower'
 import Latestnews from './Latestnews'
 import Hero2 from './Hero2'
+import CardImage from './CardImage'
 
 const Homepage = () => {
   return (
     <Holder>
       <Hero2 />
       <Hero />
+      <CardImage />
       <Digital />
       <Empower />
       <Latestnews />
