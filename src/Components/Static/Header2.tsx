@@ -35,7 +35,7 @@ const Header2 = () => {
           </Wrapper>
     </Container>
           ) : (
-                  <Container bg="" bb="">
+                  <Container bg="transparent" bb="">
           <Wrapper>
             <NavLink to="/">
                 <img src={img} alt="" />
@@ -77,7 +77,7 @@ const Wrapper = styled.div`
     align-items: center;
     justify-content: space-between;
     img{
-        height: 60px;
+        height: 50px;
     }
 `
 

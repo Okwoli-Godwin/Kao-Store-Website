@@ -10,7 +10,7 @@ const Homepage = () => {
   return (
     <Holder>
       <Hero2 />
-      <Hero />
+      {/* <Hero /> */}
       <Digital />
       <Empower />
       <Latestnews />
