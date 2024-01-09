@@ -52,8 +52,8 @@ const Hold = styled.div`
     justify-content: center;
     height: 100%;
     background-color: rgba(0, 0, 0, 0.3);
-    padding-top: 100px;
-    padding-bottom: 100px;
+    padding-top: 130px;
+    padding-bottom: 130px;
 `
 const Wrapper = styled.div`
     width: 90%;
