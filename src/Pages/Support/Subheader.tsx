@@ -74,7 +74,7 @@ const Icon = styled.div`
 const Wrapper = styled.div`
     display: flex;
     align-items: center;
-    width: 75%;
+    width: 65%;
     justify-content: space-between;
     h3{
         color: #fff;
