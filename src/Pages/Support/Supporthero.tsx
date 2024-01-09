@@ -1,6 +1,7 @@
 import React from 'react'
 import styled from 'styled-components'
 import img from "../../Assets/support.jpg"
+import { IoIosSearch } from "react-icons/io";
 
 const Supporthero = () => {
   return (
@@ -10,6 +11,8 @@ const Supporthero = () => {
             <h1>Welcome to</h1>
             <h1>Kao Store Support</h1>
             <Inputhold>
+                <Icon><IoIosSearch /></Icon>
+                <input type="text" placeholder='Search'/>
             </Inputhold>
         </Wrapper>
         </Hold>
@@ -18,6 +21,15 @@ const Supporthero = () => {
 }
 
 export default Supporthero
+const Icon = styled.div`
+    color: gray;
+    font-size: 22px;
+    width: 40px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100%;
+`
 const Inputhold = styled.div`
     display: flex;
     align-items: center;
@@ -25,6 +37,14 @@ const Inputhold = styled.div`
     background-color: #fff;
     height: 45px;
     margin-top: 25px;
+    overflow: hidden;
+    input{
+        flex: 1;
+        height: 100%;
+        border: none;
+        outline: none;
+        padding-left: 15px;
+    }
 `
 const Hold = styled.div`
     width: 100%;
