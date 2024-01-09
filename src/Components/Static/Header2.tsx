@@ -69,9 +69,9 @@ const Menu = styled.div`
   font-size: 23px;
   cursor: pointer;
   color: #fff;
-  visibility: hidden;
+  display: none;
   @media screen and (max-width: 500px) {
-    visibility: visible;
+    display: flex;
   }
 `
 const Button = styled.div`
