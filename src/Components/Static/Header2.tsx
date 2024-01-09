@@ -31,8 +31,12 @@ const Header2 = () => {
             </NavLink>
             
             <Navholder cc="#fff">
-                <Nav>About Us</Nav>
-                <Nav>Contact Us</Nav>
+                <NavLink to="/about" style={{textDecoration: "none", color: "#fff"}}>
+                    <Nav>About Us</Nav>
+                </NavLink>
+                <NavLink to="/contact-us" style={{textDecoration: "none", color: "#fff"}}>
+                    <Nav>Contact Us</Nav>
+                </NavLink>
                 <Nav>Solution</Nav>
                 <Nav>Support</Nav>
             </Navholder>
@@ -49,8 +53,12 @@ const Header2 = () => {
             </NavLink>
             
             <Navholder cc="#fff">
-                <Nav>About Us</Nav>
-                <Nav>Contact Us</Nav>
+                <NavLink to="/about" style={{textDecoration: "none", color: "#fff"}}>
+                    <Nav>About Us</Nav>
+                </NavLink>
+                <NavLink to="/contact-us" style={{textDecoration: "none", color: "#fff"}}>
+                    <Nav>Contact Us</Nav>
+                </NavLink>
                 <Nav>Solution</Nav>
                 <Nav>Support</Nav>
             </Navholder>
