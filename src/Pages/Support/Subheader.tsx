@@ -38,4 +38,6 @@ const Container = styled.div`
     background-color: #000;
     border-top: 1px solid gray;
     border-bottom: 1px solid gray;
+    position: sticky;
+    top: 0;
 `
