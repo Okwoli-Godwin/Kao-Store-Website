@@ -96,6 +96,9 @@ const Wrapper = styled.div`
     display: flex;
     align-items: center;
     justify-content: space-between;
+    @media screen and (max-width: 500px) {
+        width: 95%;
+    }
     img{
         height: 50px;
     }
