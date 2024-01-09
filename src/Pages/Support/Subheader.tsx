@@ -5,7 +5,15 @@ import { MdClose } from "react-icons/md";
 
 const Subheader = () => {
 
-    const [show, setShow] = useState<Boolean>()
+    const [show, setShow] = useState<Boolean>(false)
+
+    const Toggle = () => {
+        setShow(!show)
+    }
+
+    const Cancle = () => {
+        setShow(false);
+    }
 
   return (
     <Container>
@@ -13,14 +21,16 @@ const Subheader = () => {
                 <h3>REGISTER YOUR PRODUCT</h3>
                 <h3>RETURN ONLINE ORDER</h3>
                 <h3>WARRANTY SERVICE</h3>
-                <Icon><IoIosSearch /></Icon>
+                <Icon onClick={Toggle}><IoIosSearch /></Icon>
             
         </Wrapper>
-            <Inputhold>
+          {show ? (
+              <Inputhold>
               <Search><IoIosSearch /></Search>
               <input type="text" placeholder='Search'/>
-              <Close><MdClose /></Close>
+              <Close onClick={Cancle}><MdClose /></Close>
             </Inputhold>
+            ) : null}
     </Container>
   )
 }
@@ -45,6 +55,7 @@ const Inputhold = styled.div`
     align-items: center;
     display: flex;
     justify-content: center;
+    transition: all 350ms ease-in-out;
     input{
         width: 500px;
         height: 30px;
