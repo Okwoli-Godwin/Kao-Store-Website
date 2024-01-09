@@ -1,6 +1,7 @@
 import React, {useState} from 'react'
 import styled from 'styled-components'
 import { IoIosSearch } from "react-icons/io";
+import { MdClose } from "react-icons/md";
 
 const Subheader = () => {
 
@@ -18,12 +19,19 @@ const Subheader = () => {
             <Inputhold>
               <Search><IoIosSearch /></Search>
               <input type="text" />
+              <Close><MdClose /></Close>
             </Inputhold>
     </Container>
   )
 }
 
 export default Subheader
+const Close = styled.div`
+    color: #fff;
+    font-size: 22px;
+    cursor: pointer;
+    margin-left: 15px;
+`
 const Search = styled.div`
     color: #fff;
     font-size: 23px;
