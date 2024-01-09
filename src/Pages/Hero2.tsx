@@ -9,7 +9,7 @@ const Hero2 = () => {
         <Video src={myVideo} autoPlay={true} muted playsInline loop={true} />
         
         <Wrapper>
-              <h2>Welcome To The {' '}
+              <h2>Welcome to {' '}
                   <span>Kao Store</span>
               </h2>
         </Wrapper>
@@ -35,9 +35,9 @@ const Wrapper = styled.div`
     /* background-color: red; */
     z-index: 5;
     h2{
-        font-size: 50px;
+        font-size: 80px;
         color: #fff;
-        width: 500px;
+        width: 430px;
         text-align: center;
         @media screen and (max-width: 500px) {
             font-size: 40px;
@@ -46,11 +46,20 @@ const Wrapper = styled.div`
             font-size: 28px;
         }
         span{
-            font-size: 75px;
+            font-size: 80px;
             background: linear-gradient(94.63deg, #0030AD 10.17%, #FFDDB7 47.09%, #0030AD 83.25%);
             background-clip: text;
             -webkit-background-clip: text;
             -webkit-text-fill-color: transparent;
+            animation: animatedText 3s infinite alternate-reverse;
+            background-size: 300%;
+            background-position: -100%;
+
+            @keyframes animatedText {
+                to{
+                    background-position: 100%;
+                }
+            }
             @media screen and (max-width: 500px){
                 font-size: 50px;
             }
