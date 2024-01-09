@@ -1,8 +1,11 @@
 import React from 'react'
+import Supportheader from './Supportheader'
 
 const Supportpage = () => {
   return (
-    <div>Supportpage</div>
+    <div>
+        <Supportheader />
+    </div>
   )
 }
 
