@@ -18,7 +18,7 @@ const Subheader = () => {
         </Wrapper>
             <Inputhold>
               <Search><IoIosSearch /></Search>
-              <input type="text" />
+              <input type="text" placeholder='Search'/>
               <Close><MdClose /></Close>
             </Inputhold>
     </Container>
@@ -51,7 +51,9 @@ const Inputhold = styled.div`
         border: none;
         outline: none;
         padding-left: 15px;
-        margin-left: 15px;
+        margin-left: 10px;
+        background: none;
+        color: #fff;
     }
 `
 const Icon = styled.div`
