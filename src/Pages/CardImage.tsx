@@ -39,6 +39,11 @@ const Card = styled.div`
     display: flex;
     justify-content: center;
     overflow: hidden;
+    @media screen and (max-width: 500px) {
+        width: 100%;
+        height: 280px;
+        padding-bottom: 20px;
+    }
     h3{
         width: 100%;
         display: flex;
@@ -65,6 +70,7 @@ const Wrapper = styled.div`
     width: 90%;
     display: flex;
     justify-content: space-between;
+    flex-wrap: wrap;
 `
 
 const Container = styled.div`
@@ -73,4 +79,7 @@ const Container = styled.div`
     justify-content: center;
     padding-top: 100px;
     padding-bottom: 100px;
+    @media screen and (max-width: 500px) {
+        padding-bottom: 25px;
+    }
 `
