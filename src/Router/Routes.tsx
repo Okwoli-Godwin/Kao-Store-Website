@@ -3,6 +3,7 @@ import { Homelayout } from "../Components"
 import Homepage from "../Pages/Homepage"
 import Aboutpage from "../Pages/About/Aboutpage"
 import Contactus from "../Pages/Contactus"
+import Supportpage from "../Pages/Support/Supportpage"
 
 const Routes = () => {
     let element = useRoutes([
@@ -21,9 +22,15 @@ const Routes = () => {
                 {
                     path: "/contact-us",
                     element: <Contactus />
-                }
-            ]
+                },
+            ],
+        },
+        {
+            path: "/support",
+            element: <Supportpage />
         }
+        
+
     ])
     return element
 }

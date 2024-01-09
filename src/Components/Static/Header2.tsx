@@ -38,7 +38,9 @@ const Header2 = () => {
                     <Nav>Contact Us</Nav>
                 </NavLink>
                 <Nav>Solution</Nav>
-                <Nav>Support</Nav>
+                <NavLink to="/support" style={{textDecoration: "none", color: "#fff"}}>
+                    <Nav>Support</Nav>
+                </NavLink>
             </Navholder>
             
             <Button>Apply</Button>
@@ -60,7 +62,9 @@ const Header2 = () => {
                     <Nav>Contact Us</Nav>
                 </NavLink>
                 <Nav>Solution</Nav>
-                <Nav>Support</Nav>
+                <NavLink to="/support" style={{textDecoration: "none", color: "#fff"}}>
+                    <Nav>Support</Nav>
+                </NavLink>
             </Navholder>
             
             <Button>Apply</Button>
