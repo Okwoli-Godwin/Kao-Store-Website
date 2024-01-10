@@ -30,7 +30,8 @@ const Button = styled.button`
     justify-content: center;
     align-items: center;
     border: 2px solid #000;
-    font-size: 14px;
+    font-size: 13px;
+    letter-spacing: 1px;
     font-weight: 600;
     background-color: transparent;
     margin-top: 25px;
@@ -59,8 +60,8 @@ const Wrapper = styled.div`
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    padding-top: 120px;
-    padding-bottom: 120px;
+    padding-top: 150px;
+    padding-bottom: 150px;
     p{
         font-size: 45px;
         width: 400px;
