@@ -57,6 +57,10 @@ const Hold = styled.div`
     background-color: rgba(0, 0, 0, 0.3);
     padding-top: 130px;
     padding-bottom: 130px;
+    @media screen and (max-width: 500px) {
+        padding-top: 170px;
+        padding-bottom: 150px;
+    }
 `
 const Wrapper = styled.div`
     width: 90%;
@@ -66,7 +70,7 @@ const Wrapper = styled.div`
     flex-direction: column;
     h1{
         font-size: 50px;
-        width: 450px;
+        width: 350px;
         color: #ffffff;
         font-weight: 300;
         text-align: center;
