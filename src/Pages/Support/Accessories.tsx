@@ -120,7 +120,7 @@ const Wrapper = styled.div`
     width: 95%;
     flex-direction: column;
     justify-content: center;
-    align-items: center;
+    /* align-items: center; */
     flex-direction: column;
 `
 
