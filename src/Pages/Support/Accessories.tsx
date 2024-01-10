@@ -8,12 +8,29 @@ const Accessories = () => {
             <Top>
                 <a href="Home">Home</a>
             </Top>
+            <Imageholder>
+                <Box>
+                    
+                </Box>
+            </Imageholder>
         </Wrapper>
     </Container>
   )
 }
 
 export default Accessories
+const Box = styled.div`
+    width: 300px;
+    height: 300px;
+    /* background-color: #fafafa; */
+    background-color: red;
+`
+const Imageholder = styled.div`
+    display: flex;
+    width: 100%;
+    flex-wrap: wrap;
+    margin-top: 30px;
+`
 const Top = styled.div`
     display: flex;
     margin-top: 15px;
