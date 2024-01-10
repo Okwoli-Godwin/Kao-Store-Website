@@ -14,7 +14,7 @@ const Supportheader = () => {
               <h3>Go to Kao-Store.com</h3>
               <Menu onClick={Toggle}><Hamburger size={20}/></Menu>
               <h2>Kao Store <p>support</p></h2>
-              <Button>gffghhhhfhfhfhfhfhfhfh</Button>
+              <Button>gffghhhhfh</Button>
         </Wrapper>
     </Container>
   )

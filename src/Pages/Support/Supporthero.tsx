@@ -38,6 +38,9 @@ const Inputhold = styled.div`
     height: 45px;
     margin-top: 25px;
     overflow: hidden;
+    @media screen and (max-width: 500px) {
+        width: 300px;
+    }
     input{
         flex: 1;
         height: 100%;
@@ -70,6 +73,9 @@ const Wrapper = styled.div`
         letter-spacing: 1px;
         line-height: 1.1;
         margin: 0;
+        @media screen and (max-width: 500px) {
+            font-size: 30px;
+        }
     }
 `
 
