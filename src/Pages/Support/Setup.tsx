@@ -6,7 +6,9 @@ const Setup = () => {
   return (
     <Container>
         <Wrapper>
-            
+            <p>Setup Overview &
+                Optimisation
+            </p>
         </Wrapper>
     </Container>
   )
@@ -21,10 +23,24 @@ const Wrapper = styled.div`
     background-repeat: no-repeat;
     background-position: center;
     background-size: cover;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    p{
+        font-size: 45px;
+        width: 400px;
+        letter-spacing: 1px;
+        margin: 0 0 32px;
+        padding: 0;
+        color: #000;
+        font-weight: 400;
+        line-height: 40px;
+        text-align: center;
+    }
 `
 const Container = styled.div`
     width: 100%;
     display: flex;
     justify-content: center;
-    height: 100vh;
+    height: 100%;
 `
