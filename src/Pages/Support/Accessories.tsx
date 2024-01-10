@@ -15,6 +15,34 @@ const Accessories = () => {
                     <img src={img} alt="" />
                     <h3>Speakers <Icon><FaArrowRightLong /></Icon></h3>
                 </Box>
+                <Box>
+                    <img src={img} alt="" />
+                    <h3>Speakers <Icon><FaArrowRightLong /></Icon></h3>
+                </Box>
+                <Box>
+                    <img src={img} alt="" />
+                    <h3>Speakers <Icon><FaArrowRightLong /></Icon></h3>
+                </Box>
+                <Box>
+                    <img src={img} alt="" />
+                    <h3>Speakers <Icon><FaArrowRightLong /></Icon></h3>
+                </Box>
+                <Box>
+                    <img src={img} alt="" />
+                    <h3>Speakers <Icon><FaArrowRightLong /></Icon></h3>
+                </Box>
+                <Box>
+                    <img src={img} alt="" />
+                    <h3>Speakers <Icon><FaArrowRightLong /></Icon></h3>
+                </Box>
+                <Box>
+                    <img src={img} alt="" />
+                    <h3>Speakers <Icon><FaArrowRightLong /></Icon></h3>
+                </Box>
+                <Box>
+                    <img src={img} alt="" />
+                    <h3>Speakers <Icon><FaArrowRightLong /></Icon></h3>
+                </Box>
             </Imageholder>
         </Wrapper>
     </Container>
@@ -27,7 +55,7 @@ const Icon = styled.div`
     margin-left: 15px;
 `
 const Box = styled.div`
-    width: 300px;
+    width: 270px;
     height: 300px;
     border-radius: 5px;
     position: relative;
@@ -37,6 +65,7 @@ const Box = styled.div`
     overflow: hidden;
     background-color: #fafafa;
     transition: all 350ms ease-in-out;
+    margin-bottom: 30px;
     cursor: pointer;
     &:hover{
         background-color: #d8dcde;
@@ -64,6 +93,7 @@ const Imageholder = styled.div`
     width: 100%;
     flex-wrap: wrap;
     margin-top: 30px;
+    justify-content: space-between;
 `
 const Top = styled.div`
     display: flex;
@@ -80,7 +110,7 @@ const Top = styled.div`
 `
 const Wrapper = styled.div`
     display: flex;
-    width: 90%;
+    width: 95%;
     flex-direction: column;
 `
 

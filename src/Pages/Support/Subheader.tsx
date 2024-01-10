@@ -92,4 +92,5 @@ const Container = styled.div`
     border-bottom: 1px solid gray;
     position: sticky;
     top: 0;
+    z-index: 10;
 `
