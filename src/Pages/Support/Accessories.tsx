@@ -1,6 +1,7 @@
 import React from 'react'
 import styled from 'styled-components'
 import img from "../../Assets/speak.png"
+import img2 from "../../Assets/head.png"
 import { FaArrowRightLong } from "react-icons/fa6";
 
 const Accessories = () => {
@@ -16,8 +17,8 @@ const Accessories = () => {
                     <h3>Speakers <Icon><FaArrowRightLong /></Icon></h3>
                 </Box>
                 <Box>
-                    <img src={img} alt="" />
-                    <h3>Speakers <Icon><FaArrowRightLong /></Icon></h3>
+                    <img src={img2} alt="" />
+                    <h3>HeadPhones <Icon><FaArrowRightLong /></Icon></h3>
                 </Box>
                 <Box>
                     <img src={img} alt="" />
