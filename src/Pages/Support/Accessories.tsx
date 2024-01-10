@@ -1,6 +1,7 @@
 import React from 'react'
 import styled from 'styled-components'
 import img from "../../Assets/speak.png"
+import { FaArrowRightLong } from "react-icons/fa6";
 
 const Accessories = () => {
   return (
@@ -12,6 +13,7 @@ const Accessories = () => {
             <Imageholder>
                 <Box>
                     <img src={img} alt="" />
+                    <h3>Speakers <Icon><FaArrowRightLong /></Icon></h3>
                 </Box>
             </Imageholder>
         </Wrapper>
@@ -20,6 +22,10 @@ const Accessories = () => {
 }
 
 export default Accessories
+const Icon = styled.div`
+    margin-top: 5px;
+    margin-left: 15px;
+`
 const Box = styled.div`
     width: 300px;
     height: 300px;
@@ -27,32 +33,30 @@ const Box = styled.div`
     position: relative;
     display: flex;
     justify-content: center;
+    align-items: center;
     overflow: hidden;
     background-color: #fafafa;
-    @media screen and (max-width: 500px) {
-        width: 100%;
-        height: 280px;
-        padding-bottom: 20px;
+    transition: all 350ms ease-in-out;
+    cursor: pointer;
+    &:hover{
+        background-color: #d8dcde;
     }
     h3{
         width: 100%;
         display: flex;
-        justify-content: center;
-        color: #fff;
+        justify-content: flex-end;
         z-index: 10;
+        color: #333333;
         position: absolute;
         bottom: 5px;
-        font-size: 23px;
+        font-size: 18px;
+        align-items: center;
+        padding-right: 50px
     }
     img{
-        height: 100px;
+        height: 200px;
         object-fit: cover;
         cursor: pointer;
-        &:hover {
-            display: block;
-            transform: scale(1.1);
-            transition: all 350ms ease;
-  }
     }
 `
 const Imageholder = styled.div`
