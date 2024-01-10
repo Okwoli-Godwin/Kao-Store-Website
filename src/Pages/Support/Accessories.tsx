@@ -6,6 +6,7 @@ import img3 from "../../Assets/vision.png"
 import img4 from "../../Assets/soundbar.png"
 import img5 from "../../Assets/soundsystem.png"
 import img6 from "../../Assets/control.png"
+import img7 from "../../Assets/toolbox.png"
 import { FaArrowRightLong } from "react-icons/fa6";
 
 const Accessories = () => {
@@ -41,8 +42,8 @@ const Accessories = () => {
                     <p>CONTROL <Icon><FaArrowRightLong /></Icon></p>
                 </Box>
                 <Box>
-                    <img src={img} alt="" />
-                    <h3>Speakers <Icon><FaArrowRightLong /></Icon></h3>
+                    <img src={img7} alt="" />
+                    <p>B2B TOOLBOX <Icon><FaArrowRightLong /></Icon></p>
                 </Box>
                 <Box>
                     <img src={img} alt="" />
