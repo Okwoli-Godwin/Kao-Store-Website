@@ -5,6 +5,7 @@ import Supporthero from './Supporthero'
 import Accessories from './Accessories'
 import Setup from './Setup'
 import Faqs from './Faqs'
+import { Footer } from '../../Components'
 
 const Supportpage = () => {
   return (
@@ -15,6 +16,7 @@ const Supportpage = () => {
         <Accessories />
         <Setup />
         <Faqs />
+        <Footer />
     </div>
   )
 }
