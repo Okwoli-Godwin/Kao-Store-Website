@@ -68,5 +68,6 @@ const Container = styled.div`
     justify-content: center;
     @media screen and (max-width: 768px) {
         position: fixed;
+        z-index: 30;
     }
 `
