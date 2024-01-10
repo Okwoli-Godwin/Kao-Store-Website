@@ -4,6 +4,7 @@ import img from "../../Assets/speak.png"
 import img2 from "../../Assets/head.png"
 import img3 from "../../Assets/vision.png"
 import img4 from "../../Assets/soundbar.png"
+import img5 from "../../Assets/soundsystem.png"
 import { FaArrowRightLong } from "react-icons/fa6";
 
 const Accessories = () => {
@@ -31,8 +32,8 @@ const Accessories = () => {
                     <p>SOUNDBARS <Icon><FaArrowRightLong /></Icon></p>
                 </Box>
                 <Box>
-                    <img src={img} alt="" />
-                    <h3>Speakers <Icon><FaArrowRightLong /></Icon></h3>
+                    <img src={img5} alt="" />
+                    <p>SOUND SYSTEMS <Icon><FaArrowRightLong /></Icon></p>
                 </Box>
                 <Box>
                     <img src={img} alt="" />
