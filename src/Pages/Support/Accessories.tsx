@@ -3,6 +3,7 @@ import styled from 'styled-components'
 import img from "../../Assets/speak.png"
 import img2 from "../../Assets/head.png"
 import img3 from "../../Assets/vision.png"
+import img4 from "../../Assets/soundbar.png"
 import { FaArrowRightLong } from "react-icons/fa6";
 
 const Accessories = () => {
@@ -15,19 +16,19 @@ const Accessories = () => {
             <Imageholder>
                 <Box>
                     <img src={img} alt="" />
-                    <h3>Speakers <Icon><FaArrowRightLong /></Icon></h3>
+                    <p>SPEAKERS <Icon><FaArrowRightLong /></Icon></p>
                 </Box>
                 <Box>
                     <img src={img2} alt="" />
-                    <h3>HeadPhones <Icon><FaArrowRightLong /></Icon></h3>
+                    <p>HEADPHONES <Icon><FaArrowRightLong /></Icon></p>
                 </Box>
                 <Box>
                     <img src={img3} alt="" />
-                    <h3>Televisions <Icon><FaArrowRightLong /></Icon></h3>
+                    <p>TELEVISION <Icon><FaArrowRightLong /></Icon></p>
                 </Box>
                 <Box>
-                    <img src={img} alt="" />
-                    <h3>Speakers <Icon><FaArrowRightLong /></Icon></h3>
+                    <img src={img4} alt="" />
+                    <p>SOUNDBARS <Icon><FaArrowRightLong /></Icon></p>
                 </Box>
                 <Box>
                     <img src={img} alt="" />
@@ -72,7 +73,7 @@ const Box = styled.div`
     &:hover{
         background-color: #d8dcde;
     }
-    h3{
+    p{
         width: 100%;
         display: flex;
         justify-content: flex-end;
@@ -80,7 +81,7 @@ const Box = styled.div`
         color: #333333;
         position: absolute;
         bottom: 5px;
-        font-size: 18px;
+        font-size: 14px;
         align-items: center;
         padding-right: 50px
     }
