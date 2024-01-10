@@ -9,12 +9,21 @@ const Setup = () => {
             <p>Setup Overview &
                 Optimisation
             </p>
+            <Par>Use the Setup Overview feature in the Bang & Olufsen app to optimise your setup and troubleshoot your products at home. Find it in the app and get tips and tools tailored to you.</Par>
         </Wrapper>
     </Container>
   )
 }
 
 export default Setup
+const Par = styled.div`
+    font-size: 15px;
+    font-weight: 400;
+    width: 500px;
+    text-align: center;
+    letter-spacing: 1px;
+    margin-top: 20px;
+`
 const Wrapper = styled.div`
     width: 95%;
     display: flex;
@@ -26,16 +35,18 @@ const Wrapper = styled.div`
     flex-direction: column;
     justify-content: center;
     align-items: center;
+    padding-top: 120px;
+    padding-bottom: 120px;
     p{
         font-size: 45px;
         width: 400px;
         letter-spacing: 1px;
-        margin: 0 0 32px;
         padding: 0;
         color: #000;
-        font-weight: 400;
-        line-height: 40px;
+        font-weight: 300;
+        line-height: 45px;
         text-align: center;
+        margin: 0;
     }
 `
 const Container = styled.div`
