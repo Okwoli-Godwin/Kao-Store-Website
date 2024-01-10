@@ -12,7 +12,7 @@ const Setup = () => {
             </p>
             <Par>Use the Setup Overview feature in the Bang & Olufsen app to optimise your setup and troubleshoot your products at home. Find it in the app and get tips and tools tailored to you.</Par>
             
-            <Button>Get Started <Icon><FaArrowRightLong /></Icon></Button>
+            <Button>GET STARTED <Icon><FaArrowRightLong /></Icon></Button>
         </Wrapper>
     </Container>
   )
@@ -20,7 +20,8 @@ const Setup = () => {
 
 export default Setup
 const Icon = styled.div`
-    
+    margin-left: 20px;
+    margin-top: 3px;
 `
 const Button = styled.button`
     width: 240px;
@@ -33,6 +34,11 @@ const Button = styled.button`
     font-weight: 600;
     background-color: transparent;
     margin-top: 25px;
+    cursor: pointer;
+    transition: all 350ms ease-in-out;
+    &:hover{
+        background-color: #fff;
+    }
 `
 const Par = styled.div`
     font-size: 15px;
