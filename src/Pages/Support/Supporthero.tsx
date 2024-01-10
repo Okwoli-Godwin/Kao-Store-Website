@@ -70,7 +70,7 @@ const Wrapper = styled.div`
     flex-direction: column;
     h1{
         font-size: 50px;
-        width: 350px;
+        width: 370px;
         color: #ffffff;
         font-weight: 300;
         text-align: center;

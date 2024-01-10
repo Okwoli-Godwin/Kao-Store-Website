@@ -243,4 +243,5 @@ const Container = styled.div`
     display: flex;
     width: 100%;
     justify-content: center;
+    background-color: #C2D1FA;
 `

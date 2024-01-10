@@ -51,7 +51,7 @@ const Wrapper = styled.div`
             background-clip: text;
             -webkit-background-clip: text;
             -webkit-text-fill-color: transparent;
-            animation: animatedText 3s infinite alternate-reverse;
+            animation: animatedText 10s infinite alternate-reverse;
             background-size: 300%;
             background-position: -100%;
 
