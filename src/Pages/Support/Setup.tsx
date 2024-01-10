@@ -1,6 +1,7 @@
 import React from 'react'
 import styled from 'styled-components'
 import img from "../../Assets/background.jpg"
+import { FaArrowRightLong } from "react-icons/fa6";
 
 const Setup = () => {
   return (
@@ -10,12 +11,29 @@ const Setup = () => {
                 Optimisation
             </p>
             <Par>Use the Setup Overview feature in the Bang & Olufsen app to optimise your setup and troubleshoot your products at home. Find it in the app and get tips and tools tailored to you.</Par>
+            
+            <Button>Get Started <Icon><FaArrowRightLong /></Icon></Button>
         </Wrapper>
     </Container>
   )
 }
 
 export default Setup
+const Icon = styled.div`
+    
+`
+const Button = styled.button`
+    width: 240px;
+    height: 35px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border: 2px solid #000;
+    font-size: 14px;
+    font-weight: 600;
+    background-color: transparent;
+    margin-top: 25px;
+`
 const Par = styled.div`
     font-size: 15px;
     font-weight: 400;
