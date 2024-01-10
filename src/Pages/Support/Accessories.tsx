@@ -1,5 +1,6 @@
 import React from 'react'
 import styled from 'styled-components'
+import img from "../../Assets/speak.png"
 
 const Accessories = () => {
   return (
@@ -10,7 +11,7 @@ const Accessories = () => {
             </Top>
             <Imageholder>
                 <Box>
-                    
+                    <img src={img} alt="" />
                 </Box>
             </Imageholder>
         </Wrapper>
@@ -22,8 +23,37 @@ export default Accessories
 const Box = styled.div`
     width: 300px;
     height: 300px;
-    /* background-color: #fafafa; */
-    background-color: red;
+    border-radius: 5px;
+    position: relative;
+    display: flex;
+    justify-content: center;
+    overflow: hidden;
+    background-color: #fafafa;
+    @media screen and (max-width: 500px) {
+        width: 100%;
+        height: 280px;
+        padding-bottom: 20px;
+    }
+    h3{
+        width: 100%;
+        display: flex;
+        justify-content: center;
+        color: #fff;
+        z-index: 10;
+        position: absolute;
+        bottom: 5px;
+        font-size: 23px;
+    }
+    img{
+        height: 100px;
+        object-fit: cover;
+        cursor: pointer;
+        &:hover {
+            display: block;
+            transform: scale(1.1);
+            transition: all 350ms ease;
+  }
+    }
 `
 const Imageholder = styled.div`
     display: flex;
