@@ -1,11 +1,18 @@
-import React from 'react'
+import React, {useState} from 'react'
 import styled from "styled-components"
+import { Twirl as Hamburger } from 'hamburger-react'
 
 const Supportheader = () => {
+    const [show, setShow] = useState(false)
+
+  const Toggle = () => {
+    setShow(!show)
+  }
   return (
     <Container>
         <Wrapper>
-            <h3>Go to Kao-Store.com</h3>
+              <h3>Go to Kao-Store.com</h3>
+              <Menu onClick={Toggle}><Hamburger size={20}/></Menu>
               <h2>Kao Store <p>support</p></h2>
               <Button>gffghhhhfhfhfhfhfhfhfh</Button>
         </Wrapper>
@@ -14,6 +21,15 @@ const Supportheader = () => {
 }
 
 export default Supportheader
+const Menu = styled.div`
+  font-size: 23px;
+  cursor: pointer;
+  color: #fff;
+  display: none;
+  @media screen and (max-width: 768px) {
+    display: flex;
+  }
+`
 
 const Button = styled.div`
     visibility: hidden;
@@ -38,6 +54,9 @@ const Wrapper = styled.div`
     h3{
         color: #ffffffb2;
         font-size: 16px;
+        @media screen and (max-width: 768px) {
+            display: none;
+        }
     }
 `
 
