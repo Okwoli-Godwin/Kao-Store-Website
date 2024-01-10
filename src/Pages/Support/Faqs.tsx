@@ -60,6 +60,12 @@ const FaqsCardContainer = styled.div<FaqsCardContainerProps>`
     margin-top: 5px;
     overflow: hidden;
     border-bottom: 1px solid #e5e7eb;
+    padding-bottom: 10px;
+    border-radius: 100px;
+    padding-left: 30px;
+    padding-right: 30px;
+    box-shadow: rgba(99, 99, 99, 0.2) 0px 2px 8px 0px;
+    margin-bottom: 10px;
   }
 
   .question-header {
@@ -134,11 +140,14 @@ export default Faqs
 const SectionContainer = styled.section`
   && {
     margin-top: 12px;
-    max-width: 100%;
+    max-width: 95%;
     margin-left: auto;
     margin-right: auto;
     padding-left: 4px;
     padding-right: 8px;
+    margin-top: 80px;
+    margin-bottom: 50px;
+    /* background-color: red; */
   }
 
   .section-content {
