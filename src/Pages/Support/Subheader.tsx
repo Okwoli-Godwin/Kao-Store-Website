@@ -93,4 +93,7 @@ const Container = styled.div`
     position: sticky;
     top: 0;
     z-index: 10;
+    @media screen and (max-width: 768px) {
+        display: none;
+    }
 `

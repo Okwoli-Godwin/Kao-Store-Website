@@ -47,4 +47,7 @@ const Container = styled.div`
     height: 60px;
     background-color: #000000;
     justify-content: center;
+    @media screen and (max-width: 768px) {
+        position: fixed;
+    }
 `
