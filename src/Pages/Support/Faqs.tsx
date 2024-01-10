@@ -1,7 +1,20 @@
-import React from 'react'
+import React, {useRef, useState} from 'react'
 import styled from 'styled-components'
 
-const Faqs = () => {
+interface FaqCardProps {
+    faqsList: { q: string; a: string }
+    idx: number;
+}
+
+interface FaqsCardContainerProps {
+    isOpen: boolean;
+    answerHeight: string;
+}
+
+const Faqs: React.FC<FaqCardProps> = ({ faqsList, idx }) => {
+    const answerE1Ref = useRef<HTMLDivElement>(null);
+    const [state, setState] = useState(false)
+    const [answerH, setAnswerH] = useState("0px")
   return (
     <Container>
         <Wrapper>
