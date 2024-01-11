@@ -74,6 +74,8 @@ const Wrapper = styled.div`
         margin: 0;
         @media screen and (max-width: 500px) {
             font-size: 30px;
+            width: 300px;
+            background-color: red;
         }
     }
 `
