@@ -16,7 +16,7 @@ const Supportpage = () => {
         <Accessories />
         <Setup />
         <Faqs />
-        {/* <Footer /> */}
+        <Footer />
     </div>
   )
 }
