@@ -49,7 +49,7 @@ const Par = styled.div`
     letter-spacing: 1px;
     margin-top: 20px;
     @media screen and (max-width: 500px) {
-        width: 300px;
+        width: 350px;
         background-color: red;
     }
 `
