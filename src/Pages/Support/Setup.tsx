@@ -37,6 +37,9 @@ const Button = styled.button`
     margin-top: 25px;
     cursor: pointer;
     transition: all 350ms ease-in-out;
+    @media screen and (max-width: 500px) {
+        height: 40px;
+    }
     &:hover{
         background-color: #fff;
     }
@@ -50,7 +53,6 @@ const Par = styled.div`
     margin-top: 20px;
     @media screen and (max-width: 500px) {
         width: 350px;
-        background-color: red;
     }
 `
 const Wrapper = styled.div`
@@ -79,7 +81,6 @@ const Wrapper = styled.div`
         @media screen and (max-width: 500px) {
             font-size: 30px;
             width: 300px;
-            background-color: red;
         }
     }
 `
