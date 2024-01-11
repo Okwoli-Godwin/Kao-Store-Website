@@ -72,6 +72,9 @@ const Wrapper = styled.div`
         line-height: 45px;
         text-align: center;
         margin: 0;
+        @media screen and (max-width: 500px) {
+            font-size: 30px;
+        }
     }
 `
 const Container = styled.div`
