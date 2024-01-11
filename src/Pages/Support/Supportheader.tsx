@@ -40,6 +40,9 @@ const Wrapper = styled.div`
     width: 90%;
     align-items: center;
     justify-content: space-between;
+    @media screen and (max-width: 500px) {
+        width: 95%;
+    }
     h2{
         font-size: 21px;
         color: #fff;
