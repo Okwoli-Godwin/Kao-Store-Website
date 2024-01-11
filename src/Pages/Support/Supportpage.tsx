@@ -15,8 +15,8 @@ const Supportpage = () => {
         <Supporthero />
         <Accessories />
         <Setup />
-        {/* <Faqs />
-        <Footer /> */}
+        <Faqs />
+        <Footer />
     </div>
   )
 }
