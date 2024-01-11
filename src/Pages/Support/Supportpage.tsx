@@ -14,9 +14,9 @@ const Supportpage = () => {
         <Subheader />
         <Supporthero />
         <Accessories />
-        {/* <Setup />
+        <Setup />
         <Faqs />
-        <Footer /> */}
+        <Footer />
     </div>
   )
 }
