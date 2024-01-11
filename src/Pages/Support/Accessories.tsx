@@ -74,6 +74,9 @@ const Box = styled.div`
     transition: all 350ms ease-in-out;
     margin-bottom: 30px;
     cursor: pointer;
+    @media screen and (max-width: 500px) {
+        width: 100%;
+    }
     &:hover{
         background-color: #d8dcde;
     }
