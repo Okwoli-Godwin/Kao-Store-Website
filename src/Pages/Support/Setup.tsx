@@ -48,6 +48,10 @@ const Par = styled.div`
     text-align: center;
     letter-spacing: 1px;
     margin-top: 20px;
+    @media screen and (max-width: 500px) {
+        width: 300px;
+        background-color: red;
+    }
 `
 const Wrapper = styled.div`
     width: 95%;
