@@ -13,10 +13,10 @@ const Supportpage = () => {
         <Supportheader />
         <Subheader />
         <Supporthero />
-        <Accessories />
+        {/* <Accessories />
         <Setup />
         <Faqs />
-        <Footer />
+        <Footer /> */}
     </div>
   )
 }
